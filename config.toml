@@ -1,0 +1,39 @@
+baseURL = "https://www.ethohampton.com"
+languageCode = "en-us"
+title = "Ethohampton's Website"
+theme="EMH_Green_Theme"
+sectionPagesMenu = "main"
+
+
+
+Paginate = 10 #just for testing, will probably settle on 5 or 10
+
+[params]
+  description = "Ethan Hampton's Website"
+  author = "Ethan Hampton"
+
+[author]
+  name = "Ethan Hampton"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    title = "Home"
+    url = "/"
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    title = "My Projects"
+  [[menu.main]]
+    parent = "projects"
+    identifier = "Rules"
+    name = "My Rules"
+    title = "My Rules For Life"
+    url = "/rules.html"
+
+[permalinks]
+  posts = "/blog/:year/:month/:slug/"
+	
+
+
