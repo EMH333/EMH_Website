@@ -4,6 +4,7 @@ Date: 2018-08-27T21:32:00-08:00
 author: Ethan Hampton
 Category: Computers, High School, Life Lessons, Real Life, Tech, Teen Life
 Slug: 168-what-does-your-time-do-for-you
+draft: true
 ---
 
 Sitting in math class this afternoon, I decided to try and figure out
