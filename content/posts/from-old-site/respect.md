@@ -2,8 +2,11 @@
 title: "Respect"
 Date: 2017-06-12T11:31:00-08:00
 author: Ethan Hampton
-Category: High School, Life Lessons, Politics, Real Life, Uncategorized
 Slug: respect
+tags: ["respect"]
+description: "The most important thing in the world is respect, why is that?"
+aliases: []
+draft: true
 ---
 
 I think the most important thing in the world is respect. Respect for
@@ -30,8 +33,8 @@ if I put a little though in to them, it could be amazing. Same with this
 sort of thing, if you just think before you say things then there are
 many chances for you to make the world a better place.
 
-Why I care
-----------
+## Why I care
+
 
 Normally I don't write this sort of thing. However with the recent
 political climate and some things that happened, I felt like it is
@@ -54,7 +57,7 @@ on issues that are in the spotlight right now. One such issue was
 rape. This was what happened on the day we presented all of the
 presentations.
 
-#### Rape
+## Rape
 
 When the group talking about rape gave their presentation, it was clear
 in my mind that they wanted to make people mad. They did not seem to
@@ -76,7 +79,7 @@ The teacher also stepped in and said that was not what happens. From
 that point, they were kind of stunned at stayed that way until they went
 back to their seats.
 
-#### Gender Inequality
+## Gender Inequality
 
 The next presentation that caught most peoples eyes was the one about
 gender inequality. The presentation was pretty biased that women are on
@@ -88,7 +91,7 @@ found this very interesting. It seemed like they want to change peoples
 thinking without reason to do so.
 
 People don't like to change, so corner them with FACTS
-------------------------------------------------------
+
 
 In my opinion, we should not speak to attack or make people mad but
 instead to prove a point. Not only should we speak to prove a point, but
@@ -110,7 +113,7 @@ different views that you are right, you at least need to be respectful
 issue). Knowing how to argue respectfully is a very important skill,
 especially in this world.
 
-### Look from the other side
+## Look from the other side
 
 There are so many ways that someone can ignore another person, you can't
 avoid it, however you can try your best to listen. In my short life,
@@ -119,8 +122,8 @@ Sometimes, people really do know what they are talking about and have a
 better understanding than you do. Take the time to look at the world
 from other people's shoes, it can go a long way.
 
-Why is it so hard to be nice and to be respect?
-===============================================
+## Why is it so hard to be nice and to be respectful?
+
 
 Sometimes, something will happen in my day where it's really difficult
 to be nice. If that's someone bumping into me or spilling my drink at a
@@ -146,7 +149,7 @@ don't seem to understand. Being nice has more long term benefits, being
 mean has more short term benefits. I'm going to say that again because
 it's important.
 
-#### Being nice has more long term benefits, being mean has more short term benefits
+## Being nice has more long term benefits, being mean has more short term benefits
 
 I have theory that people who are mean aren't thinking about the long
 term, whereas nicer people understand that although they may run in to

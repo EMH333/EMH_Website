@@ -3,20 +3,17 @@ title: "Ethan's Rules of Life"
 Date: 2017-04-19T10:38:00-08:00
 author: Ethan Hampton
 Slug: ethans-life-rules
+tags: ["respect","rules","life"]
+description: "The most important thing in the world is respect, why is that?"
+aliases: []
 ---
 
-![Code of Conduct (My
-Rules)](https://www.ethohampton.com/wp-content/uploads/2017/04/Code_of_Conduct-1024x186.png){.aligncenter
-.wp-image-461 .size-large width="750" height="136"}These are a list of
-all the rules I (Ethan) think it is important to live by. You don't have
+These are a list of all the rules I (Ethan Hampton) think it is important to live by. You don't have
 to follow them all the time but for 99% of situations they definitely
 apply. Please note that the first rule is definitely the most important.
 Enjoy!
 
-If you don't know me or why you should care, look
-[here](https://www.ethohampton.com/about-me/). For more about Ethan
-Hampton, visit [here](https://www.ethohampton.com/about-me/). I think
-that rules or guidelines are critical to the success of anything because
+I think that rules or guidelines are critical to the success of anything because
 it creates policies. The world is full of broken guidelines and policies
 and rules, that's why I am planing to update this page when I come up
 with new ones. The ordering is kind of important as previously mentioned
@@ -30,18 +27,18 @@ of the changes I make in order to keep everything well organized.
 The Rules:
 ----------
 
-1. ### **Respect everything**
+### 1. **Respect everything**
 
 - The end is only the beginning
 - You only live once, so be careful
 - Don't judge a book by it's cover
-- [Think](https://www.ethohampton.com/2017/08/diversity-of-intellectual-thought/)
+- [Think]({{< ref "diversity-of-intellectual-thought.md" >}})
 - The group is more important than the individual but individuals have
 the most value
 - ~~Rules only work if you follow them~~ Rules only work if a vast
 majority of people, including the creators, follow them -Modified
 20-Mar-2018
-- [Love everything](https://www.ethohampton.com/2016/05/love-life/)
+- Love everything
 - Fear isn't good
 - Strive to be the best
 - Stay calm
