@@ -1,7 +1,14 @@
 ---
-description: "Ethan Hampton"
----
+description: A quick description of Ethan Hampton and what this whole blog is about!
+author: Ethan Hampton
+tags:
+- Ethan Hampton
+- Technology
+- Coding
+- Blog
+- Web Toys
 
+---
 My name is Ethan Hampton and I am a self employed technology consultant. I work to improve individuals usage of technology and insure they are getting the most out of technology as possible. My goal is to be as helpful as possible.
 
 
