@@ -1,6 +1,6 @@
 +++
 author = "Ethan Hampton"
-date = "2019-02-27T19:00:00-08:00"
+date = "2019-02-27T20:00:00-08:00"
 description = "A short story about a lagoon and the ocean as Ethan came across it at the beach"
 slug = "the-lagoon"
 tags = ["lagoon", "ocean", "beach", "story", "night"]
