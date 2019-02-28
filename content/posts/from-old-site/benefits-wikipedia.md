@@ -1,12 +1,21 @@
 ---
-title: "The Benefits of Wikipedia"
-Date: 2018-04-06T18:09:00-08:00
+title: The Benefits of Wikipedia
+Date: 2018-04-07 02:09:00 +0000
 author: Ethan Hampton
 Category: Computers, Real Life, Tech, Uncategorized
-Tags: [Contribution, exabytes, Group, high school, life, Online, Open Source, School, Wikipedia]
+Tags:
+- Contribution
+- exabytes
+- Group
+- high school
+- life
+- Online
+- Open Source
+- School
+- Wikipedia
 Slug: benefits-wikipedia
----
 
+---
 This essay was written for my language arts class, but I felt it also
 deserved to be on the Internet here as I struggled to find sources while
 writing this. I may come back and fix this so it actually is a good
@@ -24,8 +33,7 @@ Whether people are looking to work on their writing skills, learn a bit
 more about the world or help others do the same, Wikipedia is an amazing
 resource.
 
-Some benefits...
-----------------
+## Some benefits...
 
 When you edit Wikipedia, you edits are immediately published to the
 whole world. There is no delete or undo button, you have to make sure
@@ -62,13 +70,7 @@ clearly how people can collaborate and talk to one another in a new way
 online.” This is not normal collaboration, Wikipedia requires you to be
 more adaptive and ready to quickly change when others request it.
 
-When looking at the amount of editing happening across Wikipedia at
-once, the amount of work put in becomes very evident. When it comes to
-the scale of things, I think I have it pretty well [figured
-out](https://www.ethohampton.com/2018/03/there-are-people-on-earth/) but
-the [recent
-changes](https://en.wikipedia.org/wiki/Special:RecentChanges) page of
-Wikipedia still amazes me.
+When looking at the amount of editing happening across Wikipedia at once, the amount of work put in becomes very evident. When it comes to the scale of things, I think I have it pretty well [figured out](https://www.ethohampton.com/2018/03/there-are-people-on-earth/) but the [recent changes](https://en.wikipedia.org/wiki/Special:RecentChanges) page of Wikipedia still amazes me.
 
 ##### Also, Wikipedia has the Benefit of Being Unbiased
 
@@ -109,8 +111,7 @@ Remain The Font of Knowledge?”). Although displaying this information on
 other websites does cause Wikipedia to lose potential editors and direct
 readers, it also helps increase the visibility of the content.
 
-Why Not?
---------
+## Why Not?
 
 A common reason stated against Wikipedia is that it is not reliable and
 is often biased. This is actually true for some articles and can cause
@@ -137,8 +138,7 @@ though, a lot of Wikipedia is slowly changing. People are learning how
 to better include everyone and there is less and less vandalism
 happening because they are being blocked.
 
-Conclusion
-----------
+## Conclusion
 
 Wikipedia is a organization and website that the entirety of the human
 population can benefit from. It helps to improve a person's knowledge as
@@ -150,25 +150,25 @@ person can collectively make a huge difference.
 ### Works Cited {#works-cited style="text-align: center;"}
 
 “Can 15-Year-Old Wikipedia Remain The Planet's Font of All Knowledge?”
-*Post* *Magazine*, South China Morning
+_Post_ _Magazine_, South China Morning
 Post, [https://www.scmp.com/magazines
 /post-magazine/arts-entertainment/article/1903400/can-15-year-old-wikipedia-remain-planets](http://www.scmp.com/magazines/post-magazine/arts-entertainment/article/1903400/can-15-year-old-wikipedia-remain-planets)
 20 Jan. 2016, .
 
-"Education/Reasons to Use Wikipedia." *Outreach Wiki,* 25 Jan 2018.
-<https://outreach.wikimedia.org/w/index.php?title=Education/Reasons_to_use_Wikipedia&oldid=171299>.
+"Education/Reasons to Use Wikipedia." _Outreach Wiki,_ 25 Jan 2018.
+[https://outreach.wikimedia.org/w/index.php?title=Education/Reasons_to_use_Wikipedia&oldid=171299](https://outreach.wikimedia.org/w/index.php?title=Education/Reasons_to_use_Wikipedia&oldid=171299).
 Accessed 14 Feb. 2018.
 
 Hill, Mark. “Wikipedia Is Shockingly Biased: 5 Lessons From An Admin.”
-*Cracked*, 11 July 2016,
+_Cracked_, 11 July 2016,
 [http://www.cracked.com/personal-experiences-2344-5-ugly-realities-
 wikipedia-i-learned-as-admin.html](http://www.cracked.com/personal-experiences-2344-5-ugly-realities-wikipedia-i-learned-as-admin.html).
 
 Sanger, Larry. “What Wikipedia Is and Why It Matters.” Computer Systems
 Laboratory EE380 Colloquium, Stanford University, 16 Jan 2002. Lecture.
 
-Wikipedia contributors. "Wikipedia:Five Pillars." *Wikipedia, The Free
-Encyclopedia*. Wikipedia, The Free Encyclopedia,
+Wikipedia contributors. "Wikipedia:Five Pillars." _Wikipedia, The Free
+Encyclopedia_. Wikipedia, The Free Encyclopedia,
 [en.wikipedia.org/w/index.php?title=
 Wikipedia:Five_pillars&oldid=815197819](https://en.wikipedia.org/w/index.php?title=%20Wikipedia:Five_pillars&oldid=815197819).
 Accessed 21 Feb. 2018.
