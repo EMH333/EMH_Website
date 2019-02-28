@@ -1,0 +1,16 @@
++++
+author = "Ethan Hampton"
+date = "2019-02-27T19:00:00-08:00"
+description = "A short story about a lagoon and the ocean as Ethan came across it at the beach"
+slug = "the-lagoon"
+tags = ["lagoon", "ocean", "beach", "story", "night"]
+title = "The Lagoon"
+
++++
+As the snow slowly melts away and the birds come out again, my mind drifts back to a weekend at the beach a couple weeks ago. Celebrating my grandma’s 80th birthday I was sure I was going to have a good time. When my family arrived I was greeted by a tall two story house that extended off into the distance. The furnishings inside all melded together into a nice calm blue that carried hints of the ocean throughout the house. Sleeping arrangements were made and it was decided that I should sleep in a twin bed next to an expansive window on the second story. By the time I made it up to bed it was pitch dark outside, all you could see were the twinkling of fishing boats gently rocking in their sleep.
+
+When I woke up the next morning, the whole house was awake, the sun shining down and waves crashing in a constant tempo of movement. It seemed the whole world had bounced back into action after the calm night and was now secured into the rhythm that it would keep for the rest of the morning and into the afternoon. I stretched out and sat down just like those classic pictures, where you can see the reflection of your face in the window and the lighting is just perfect, looking off into the distance. Between the crashing of the waves and the moment of ducks and seagulls flying around there was plenty to observe from my perch.
+
+Suddenly the world seemed to stop, freezing the ocean and birds in place. For a moment there was no chaos, no nightmares, no fear, just a still image filled with life and beauty. Right down beyond the house towards the ocean was a fair sized lagoon. This lagoon was filled up only in the winter and was so close to the ocean, often at high tide it would collect the mist from the waves. In that moment of stillness it also remained frozen. But when everything else in the world shook itself back into action, the lagoon stayed still. Its surface was so reflective and constant it took me a while to realize that their weren’t other forces at play. It looked like a portal to the sky and clouds. Sometimes authors like to make comparisons to glass, mirrors or other reflective surfaces but that wouldn’t do this image justice. In the middle of this windy, sandy, messy, wave filled beach was this steadfast rock of stillness and calm.
+
+I find immense beauty in these sorts of paradoxical situations, the idea that movement and stillness can coexist so close to one another and sometimes even join for a moment yet go back their separate ways without ever acknowledging the other exists. Sometimes it is important to be the ocean, moving and flowing around any barriers that come up in one fluid motion, overwhelming them before they can rebuild. On the other hand, it can be formative to be a lagoon, only occasionally coming to make ones voice known but doing so in a meaningful way that takes time to slowly shape the landscape around it with purpose. The ocean never stops, the lagoon never starts, but both make no net difference. Its only when the two join that a difference is ever made.
