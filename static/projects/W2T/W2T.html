@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>White2Transparent</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66393601-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-66393601-1');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cash/2.3.3/cash.min.js"></script>
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/picnic">
+</head>
+
+<body>
+    <h1>White To Transparent</h1>
+    <p>Enter the image url in the box then follow the steps. To just remove the white, press "Get Image From URL" then
+press "Erase The Selected Color", "Crop Image to Visible" if you want to potentially reduce file size then "Save to Computer"</p>
+    <p>See! Pretty Simple!</p>
+    <input type="url" name="url" id="imgUrl" value="Enter Image URL Here">
+    <button onclick="makeBase()">Get Image From URL</button>
+    <button onclick="erase()">Erase The Selected Color</button>
+    <button onclick="cropImageFromCanvas()">Crop Image to Visible (Reduces File Size)</button>
+    <button onclick="exportCanvas()">Save to Computer</button>
+    <br>
+    <br>
+    <span>Advanced Stuff:</span>
+    <button onclick="resetColor()">Reset Color</button>
+    <button onclick="toggleBackground()">Toggle Background Color</button>
+    <div id="block" style="width:5em; height: 5em; border: 2px solid black;">
+        Currently Selected Color
+    </div>
+    <canvas id="canvas" style="background-color:grey;">
+        Your browser does not support this...
+    </canvas>
+</body>
+
+</html>

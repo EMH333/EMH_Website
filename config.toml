@@ -1,4 +1,4 @@
-baseURL = "https://www.ethohampton.com/new"
+baseURL = "https://www.ethohampton.com"
 languageCode = "en-us"
 title = "Ethan Hampton"
 theme="EMH_Green_Theme"
@@ -22,16 +22,16 @@ Paginate = 10 #just for testing, will probably settle on 5 or 10
     name = "Home"
     title = "Home"
     url = "/"
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    title = "My Projects"
-  [[menu.main]]
-    parent = "projects"
-    identifier = "Rules"
-    name = "My Rules"
-    title = "My Rules For Life"
-    url = "/rules.html"
+#  [[menu.main]]
+#    identifier = "projects"
+#    name = "Projects"
+#    title = "My Projects"
+#  [[menu.main]]
+#    parent = "projects"
+#    identifier = "Rules"
+#    name = "My Rules"
+#    title = "My Rules For Life"
+#    url = "/rules.html"
 
 [permalinks]
   posts = "/:year/:month/:slug/"
