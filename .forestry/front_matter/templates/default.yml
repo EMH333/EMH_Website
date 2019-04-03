@@ -33,5 +33,6 @@ fields:
   config:
     required: false
 pages:
+- content/posts/2019/04/prom.md
 - content/posts/2019/02/the-lagoon.md
 - content/posts/2019/01/Short_or_Long_Term.md
