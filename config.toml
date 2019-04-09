@@ -12,6 +12,7 @@ Paginate = 10 #just for testing, will probably settle on 5 or 10
   description = "Ethan Hampton's Website"
   author = "Ethan Hampton"
   sideMenuInfo = "Hey! I created this new site from scratch! Tell me what you think!"
+  sideMenuAd = true
 
 [author]
   name = "Ethan Hampton"
