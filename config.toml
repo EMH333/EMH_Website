@@ -6,12 +6,12 @@ sectionPagesMenu = "main"
 googleAnalytics = "UA-66393601-1"
 
 
-Paginate = 10 #just for testing, will probably settle on 5 or 10
+Paginate = 10 #How many posts per page
 
 [params]
   description = "Ethan Hampton's Website"
   author = "Ethan Hampton"
-  sideMenuInfo = "Hey! I created this new site from scratch! Tell me what you think!"
+  sideMenuInfo = "Ethan Hampton is a Oregon State Honors College student studying Computer Science. He trys to come up with simple but effective ideas that work at a large scale"
   sideMenuAd = true
 
 [author]
