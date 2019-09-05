@@ -11,8 +11,9 @@ Paginate = 10 #How many posts per page
 [params]
   description = "Ethan Hampton's Website"
   author = "Ethan Hampton"
-  sideMenuInfo = "Ethan Hampton is a Oregon State Honors College student studying Computer Science. He trys to come up with simple but effective ideas that work at a large scale"
+  sideMenuInfo = "Ethan Hampton is a Oregon State Honors College student studying Computer Science. Ethan loves simple but effective ideas that work at a large scale to help make the world a better place"
   sideMenuAd = true
+  ignoredMenuTypes = ["images","pages"]
 
 [author]
   name = "Ethan Hampton"
