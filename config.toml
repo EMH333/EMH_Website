@@ -15,7 +15,7 @@ Paginate = 10 #How many posts per page
   description = "Ethan Hampton's Website"
   author = "Ethan Hampton"
   sideMenuInfo = "Ethan Hampton is a Oregon State Honors College student studying Computer Science. Ethan loves simple but effective ideas that work at a large scale to help make the world a better place"
-  sideMenuAd = true
+  sideMenuAd = false
   ignoredMenuTypes = ["images","pages"]
 
 [author]
@@ -27,6 +27,11 @@ Paginate = 10 #How many posts per page
     name = "Home"
     title = "Home"
     url = "/"
+  [[menu.main]]
+    identifier = "resume"
+    name = "Résumé"
+    title = "Résumé"
+    url = "/pages/ethan-hampton-resume"
 #  [[menu.main]]
 #    identifier = "projects"
 #    name = "Projects"
