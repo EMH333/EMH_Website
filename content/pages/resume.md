@@ -35,7 +35,7 @@ McMinnville High School Robotics Team
 
 
 Founder, 2015 -- Present  
-Ethan Hampton Technology Consulting
+Ethan M. Hampton Technology Consulting
 
 
 #### AUDIO AND VISUAL ENGINEERING EXPERIENCE
