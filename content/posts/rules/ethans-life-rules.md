@@ -7,7 +7,10 @@ tags:
 - respect
 - rules
 - life
-description: The most important thing in the world is respect, why is that?
+description: The most important thing in the world is respect, why is that? As Ethan
+  Hampton I have developed a list of "rules" that I believe it is important to follow.
+  The following is an outline of those rules and serves as a continual log of changes
+  to those rules.
 aliases: []
 
 ---
@@ -60,8 +63,8 @@ of the changes I make in order to keep everything well organized.
   really need to make sure you are respectful about it -Added
   11-Oct-2017
 * Name calling is simply wrong -Added 11-Oct-2017
-* [Unity is
-  important](https://www.ethohampton.com/2017/02/unity-your-voice-and-your-story/)
+* Unity is
+  important
   \-Added 11-Oct-2017
 * Being good natured about stuff is critical. You'd be surprised how
   much of a good time you can have -Added 20-Mar-2018
