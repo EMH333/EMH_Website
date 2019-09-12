@@ -1,4 +1,4 @@
-name: CI
+name: Build Hugo
 
 on: [push]
 
@@ -10,7 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Install Hugo
-      run: sudo apt install hugo
+      run: sudo apt install hugo -y
     - name: Run the hugo build
-      run: |
-        hugo -v
+      run: hugo -v
