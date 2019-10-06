@@ -30,4 +30,6 @@ I essentially shot myself in the foot by releasing the app and the end of a scho
 
 No one knows what Progressive Web Apps are. I initially didn't have any sort of install prompt or anything indicating how to install the app for iOS and given that students at my school were not known for their tech knowledge that prevented a lot of students from understanding how to install the app. I think that is one of the biggest things that I took away from this whole experience is that people who are not familiar with front-end web development don't realize that you can install web applications on your phone (and computer). With a little bit of work I added an iOS install prompt and that seemed to help installations a bit (quite a lot).
 
-I got a little bit of recognition from people and a lot of it was positive. There were a couple of bugs that were easy to fix and they helped improve the overall user experience really well. 
+I got a little bit of recognition from people and a lot of it was positive. There were a couple of bugs that were easy to fix and they helped improve the overall user experience really well.
+
+The biggest change was made when the schools twitter account retweeted my announcement and I saw a huge jump in traffic
