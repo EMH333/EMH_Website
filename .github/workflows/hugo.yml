@@ -9,7 +9,9 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: Install Hugo
-      run: sudo apt install hugo -y
+    - name: Install Hugo and add theme
+      run: |
+        sudo apt install hugo -y
+        git submodule update --init --recursive
     - name: Run the hugo build
       run: hugo -v
