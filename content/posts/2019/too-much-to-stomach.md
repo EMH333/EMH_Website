@@ -3,7 +3,7 @@ author = "Ethan Hampton"
 date = "2019-08-27T17:09:00-07:00"
 description = "Increases in world population have lead the world to create more and more content. Not all of it good, not all of it bad. I think the world needs to stop putting a focus on the quanity but rather the quality in regards to content consumption."
 slug = "too-much-stomach"
-tags = ["Stomach", "Wikipedia", "Brain", "Content", "Quality", "News", "West Wing"]
+tags = ["Stomach", "Wikipedia", "Brain", "Content", "Quality", "News", "West Wing", "World"]
 title = "Too Much To Stomach"
 
 +++
