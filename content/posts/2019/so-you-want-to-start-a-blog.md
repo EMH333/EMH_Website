@@ -28,8 +28,8 @@ I use Github to host the actual source code but it isn't as big of a deal and no
 
 ## A Quick Plug
 
-I am in the process of starting up a consulting business. If you are interested in having me host your website, please contact me at etho@ethohampton.com! I also can do technology consultations for more general things and have experience with Java and C# as back end technologies as well as Javascript and Progressive Web Applications (PWAs) for the front end. This helps you as well as giving me experience with a wide variety of use cases and customers. 
+I am in the process of starting up a consulting business. If you are interested in having me host your website, please contact me at etho@ethohampton.com! I also can do technology consultations for more general things and have experience with Java and C# as back end technologies as well as Javascript and Progressive Web Applications (PWAs) for the front end. This helps you as well as giving me experience with a wide variety of use cases and customers.
 
 ## For Your Website/Blog:
 
-For a 
+For a personal website that you might use to post a few stories now and then but just generally have a presence on the web, you probably want to use WordPress. This is for a few reasons but namely because you can customize it so much. If you eventually figure out you want to start a podcast, you can do that with WordPress, same if you want to start a eCommerce store or move into news stories. There are plugins for pretty much everything and they seem to always be improving. You need to find a host that actually supports running WordPress but because so many people use it, it isn't hard to find.
