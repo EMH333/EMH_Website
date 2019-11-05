@@ -4,7 +4,7 @@ date = 2019-11-03T07:00:00Z
 description = "How is the blog currently hosted and what can you do if you want to start your own?"
 draft = true
 slug = "start-a-blog"
-tags = ["blog", "mailling list", "startup", "outreach", "create", "online", "resume"]
+tags = ["blog", "mailling list", "startup", "outreach", "create", "online", "resume", "start", "website"]
 title = "So you want to start a blog?"
 
 +++
@@ -33,3 +33,11 @@ I am in the process of starting up a consulting business. If you are interested 
 ## For Your Website/Blog:
 
 For a personal website that you might use to post a few stories now and then but just generally have a presence on the web, you probably want to use WordPress. This is for a few reasons but namely because you can customize it so much. If you eventually figure out you want to start a podcast, you can do that with WordPress, same if you want to start a eCommerce store or move into news stories. There are plugins for pretty much everything and they seem to always be improving. You need to find a host that actually supports running WordPress but because so many people use it, it isn't hard to find.
+
+You also want a domain name that represents you. Mine, [ethohampton.com](https://www.ethohampton.com), refers back to a childhood nickname of mine that is casual but also not too unprofessional (also ethanhampton.com was unavailable). Find sometime that is easy to say to someone, not asdgxfw.com  for example, so that you can share it easily. If you go through a hosting provider, they will help you get this set up. As a side note, make sure that your provider isn't making you pay for HTTPS, it's 2019 and HTTPS is expected on every single website. There are wonderful services like Let's Encrypt that can even get you certificates for free. 
+
+From there, WordPress and your hosting provider will walk you through the steps to get a basic set up going and you can always add on from there. At this point, use Google (or [DuckDuckGo](https://duckduckgo.com)) for any particular questions you may have regarding set up or any other facet of your website. It is **your website** so make it your own!
+
+Additionally, going back to the original question, if you want to start a mailing list, there are a couple of other options. I imagine that WordPress has a mailing list plugin, but I would recommend going with a dedicated provider. This could be [MailChimp](https://mailchimp.com/), [Drip](https://www.drip.com/), [Mailer Lite](https://www.mailerlite.com/), or one of the countless other providers. If possible, add some sort of way for readers of your blog to sign up with just their email and then keep those emails coming!
+
+Creating your own website/blog is an excellent résumé builder that can help put your name out there. Especially if you create articles and posts relevant to your field and use it as a chance to market yourself (Note that this is exactly what I am doing🙂). If you want more information about your blog's performance start looking into analytics, if you want your blog to show up in search results look at SEO (search engine optimization). There are a ton of ways you can go about this, and a ton of different information that you might be able to glean off this experience. Creating your own website may seem scary at first, but it has a very low barrier of entry and very little issue if it doesn't work for some reason. So start a website or start a blog!
