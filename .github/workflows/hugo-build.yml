@@ -1,6 +1,9 @@
 name: Build Hugo
 
-on: [push]
+on:
+  push:
+    branches-ignore: 
+      - 'master' #Already building if on master, no point in building again
 
 jobs:
   build:
@@ -14,7 +17,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.62.2'
+        hugo-version: 'latest' #note we are using the latest version here for testing, need to be updated manually for master
         extended: true
         
     - name: Add theme and pull LFS files
