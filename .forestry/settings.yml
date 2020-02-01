@@ -1,6 +1,6 @@
 ---
 new_page_extension: md
-auto_deploy: true
+auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
@@ -19,14 +19,14 @@ public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
-instant_preview: 
+instant_preview: true
 build:
   preview_env:
   - HUGO_ENV=staging
-  - HUGO_VERSION=0.53
   preview_output_directory: public
-  preview_docker_image: forestryio/build:latest
-  mount_path: "/opt/buildhome/repo"
+  install_dependencies_command: npm install
+  preview_docker_image: forestryio/hugo:node10
+  mount_path: "/srv"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
   publish_command: hugo -d public

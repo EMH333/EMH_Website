@@ -1,0 +1,40 @@
+name: Build and Deploy Hugo
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout  
+      uses: actions/checkout@v1
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.62.2'
+        extended: true
+        
+    - name: Add theme and pull LFS files
+      run: |
+        git submodule update --init --recursive
+        git lfs pull
+    - name: Run the hugo build
+      run: hugo -v --minify
+
+    - name: Deploy to server
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: ethohampton.com
+        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        LOCAL_DIR: public
+        REMOTE_DIR: ethohampton.com
+        METHOD: sftp
+        PORT: 22
+        ARGS: --delete
