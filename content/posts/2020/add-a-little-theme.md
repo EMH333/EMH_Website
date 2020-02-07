@@ -3,7 +3,7 @@ title: "Theme a Little Theme With Me"
 slug: "add-a-little-theme"
 tags: ["content","create","life theme","life","new years resolution","new", "plan"]
 description: "I want to add some sort of theme to my life. This is my intro post to making that happen"
-date: 2020-02-06T20:52:36-08:00
+date: 2020-02-06T22:22:36-08:00
 author: "Ethan Hampton"
 draft: false
 ---
@@ -48,7 +48,9 @@ So I have a big list. What should my theme be? CGP Grey has some suggestions:
 - Health
 - Family
 - Finances
-- and my own:
+
+and my own:
+
 - Positive
 - Justice
 - Social
@@ -59,7 +61,7 @@ So I have a big list. What should my theme be? CGP Grey has some suggestions:
 All of those are great but I think I will probably end up going with "positive progress" for a variety of reasons.
 
 ## Positive Progress
-I think this is a great theme for this term because it accurately reflects what I want to do. By making a long term plan and outlining all my goals I am definitely making progress towards a positive life. I think that all of the things that I have outlined also help me towards this theme and are also things that generally leave me with a positive emotion. I believe that before you can make an impact on other people you need to get yourself in order. College is set up as the perfect time to do this and although I would love to say that I in fact am in order right now, I know that is not the case. Without saying too much, I have done a poor job of analyzing the way my words and the medium used to communicate them would impact others and again this is an area where I desperately need positive progress. 
+I think this is a great theme for this term because it accurately reflects what I want to do. By making a long term plan and outlining all my goals I am definitely making progress towards a positive life. I think that all of the things that I have outlined also help me towards this theme and are also things that generally leave me with a positive emotion. I believe that before you can make an impact on other people you need to get yourself in order. College is set up as the perfect time to do this and although I would love to say that I in fact am in order right now, I know that is not the case. Without saying too much, I have done a poor job of analyzing the way my words and the medium used to communicate them would impact others and again this is an area where I desperately need positive progress. I owe it to myself to improve my own life in a way that allows me to be positive and be myself without feeling too constricted.
 
 ## Conclusion
 This whole essay took about an hour and a half from conception to publishing. This is a new record for me especially considering that this is over 1,000 words. My (own and personal) website is a platform that I want to explore more. There is little reason to continue to maintain it if I am saying something.  I will be very curious to see how long I am able to keep these habits up but talking about them (or at least recording them). Ideally, I will continue to update as time goes on and because the Internet saves everything forever, there will always be a record. The sun today among other things was a welcome push to publish this and I am glad that I did. 
