@@ -11,6 +11,8 @@ pygmentsStyle="tango"
 
 Paginate = 10 #How many posts per page
 
+enableGitInfo=true #use git for modification date data 
+
 [params]
   description = "Ethan Hampton's Website"
   author = "Ethan Hampton"
