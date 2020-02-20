@@ -1,0 +1,13 @@
+The moral of this story is don't trust client side analytics.
+
+I enable uBlock Origin (a tracking/ad blocker) on ethohampton.com. Seriously, on my own website. Why, you might ask?
+
+To begin with, I don't display ads anyway. I used to try to make money off of this content until I realized that there was little point. I wouldn't make anything significant and if I even generate enough views to make anything cold hard cash, it wouldn't be professional. So I can say that ethohampton.com does not contain any ads and never will (leaving the option open for referral based stuff, but that is highly unlikely). 
+
+Additionally, Google Analytics was tracking my every move and apparently I differ in usage from a normal user. This way my actions won't affect my raw analytical data. And thus my point. I made the conscious decision to block my website from tracking me but I also block literally hundreds of websites a month through by default blocking. 
+
+My data screws up the metrics only because I don't receive enough traffic to hide behind the averages. But it is worth noting that [over 26% of Internet users block ads as of 2016](https://www.iab.com/insights/ad-blocking-blocks-ads-win-back/) (which is now 4 years ago, crazy), so if using some sort of client side tracking, it is safe to assume that it is ignoring 25% or more of your users.
+
+I do some consulting for an e-commerce business and thus I have access to their website analytics. They aren't accurate. Now I don't know this for sure, and to increase accuracy it would take a lot more time, which is why I haven't mentioned anything actionable, but it is important to remember. They also are in an industry that tends to draw a lot of older web users. This will skew their statistics more in their favor which is a good thing but also underlines the importance of knowing your audience. 
+
+The only data you can fully trust is data that is coming directly from resources you have full control over. The data for how many requests your web server received (assuming it is reporting correctly) can be fully trusted. You may, in that case, also run into things like bots and spammers, but clever filtering can get you a lot further then having to account for unknowns in data you never had control over in the first place. 
