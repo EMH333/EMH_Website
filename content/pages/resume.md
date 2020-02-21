@@ -1,7 +1,7 @@
 +++
 author = "Ethan Hampton"
 date = "2019-09-06T04:24:10+0000"
-description = "Ethan Hampton's resume. Ethan is very passionate about computer science and enjoys working on distributed systems at scale"
+description = "The resume of Ethan Hampton. Ethan is very passionate about computer science and enjoys working on distributed systems at scale"
 draft = false
 slug = "ethan-hampton-resume"
 tags = ["Resume","Education","Work"]
