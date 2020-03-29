@@ -37,7 +37,7 @@ of the changes I make in order to keep everything well organized.
 * The end is only the beginning
 * You only live once, so be careful
 * Don't judge a book by it's cover
-* \[Think\]({{< ref "diversity-of-intellectual-thought.md" >}})
+* [Think]({{< ref "diversity-of-intellectual-thought.md" >}})
 * The group is more important than the individual but individuals have
   the most value
 * ~~Rules only work if you follow them~~ Rules only work if a vast
