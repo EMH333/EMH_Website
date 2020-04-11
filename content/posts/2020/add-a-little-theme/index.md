@@ -13,13 +13,13 @@ I recently watched a [CGP Grey video](https://www.youtube.com/watch?v=NVGuFdX5gu
 ## Long(ish) Term
 First off, I needed to get my long term life together so I actually know where I am going. I love spreadsheets for all types of things so obviously I created one. It actually should work pretty well and I look forward to using it. I divided this initial plan up into quarters of the year. There is a two-fold benefit to this, OSU is on the quarter system and it also lines up with CGP Grey's recommendation. It is as follows:
 
-{{< image src="images/levels.jpg" title="Basic Header Information">}}
+{{< image src="levels.jpg" title="Basic Header Information">}}
 This is all the "header" stuff that is important to have at the top.
 
-{{< image src="images/classes.jpg" title="College classes and credits">}}
+{{< image src="classes.jpg" title="College classes and credits">}}
 I also decided to track my college classes and how many credits each class is. This plan is only for about 5 years so I won't continue this on all my plans, but for this time frame it should work okay. 
 
-{{< image src="images/other.jpg" title="Misc. Items that I want to track">}}
+{{< image src="other.jpg" title="Misc. Items that I want to track">}}
 This section is all the other random stuff that I want to track. This includes things like my theme for the quarter, my net worth (not going to talk about that for now), where I am living for most of the time, as well as my mile time and the two books I want to read for the quarter (I am about 3/4 through *Educated* by Tara Westover right now and I love it). 
 
 This spreadsheet will also include things like study abroad and internships and is not limited to just the school year. I plan to come back to it at least every quarter to update and maintain it until I graduate from college. Long term plans don't work if you don't remember them or maintain them. 

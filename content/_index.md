@@ -11,7 +11,7 @@ tags:
 - Web Toys
 
 ---
-{{< image src="images/headshot.jpg" title="Ethan Hampton" style="width:10em; margin-left: auto; margin-right: auto;">}}
+{{< image src="headshot.jpg" title="Ethan Hampton" style="width:10em; margin-left: auto; margin-right: auto;" width="160">}}
 
 
 My name is Ethan Hampton and I am a self employed technology consultant. I am currently attending Oregon State University Honors College, majoring in Computer Science and working with several individuals and businesses to help meet their ever-changing technology needs.
