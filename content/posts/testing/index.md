@@ -18,3 +18,9 @@ Full:
 
 non-resize
 {{< image src="images/image-1.jpg" resize="true" >}}
+
+
+This is a quick test of footnotes[^test].
+
+
+[^test]: https://example.com
