@@ -11,8 +11,10 @@ tags:
 - Web Toys
 
 ---
-{{< image src="headshot.jpg" title="Ethan Hampton" style="width:10em; margin-left: auto; margin-right: auto;" width="160">}}
+Why does this site look a little different right now? This is in solidarity with and for the Black Lives Matter movement which calls for change in the way we run our country. Good change that has been long overdue. Just changing some colors doesn't do much though, so note some links on the sidebar to resources and donation sites which can help keep this movement going.
 
+
+___
 
 My name is Ethan Hampton and I am a self employed technology consultant. I am currently attending Oregon State University Honors College, majoring in Computer Science and working with several individuals and businesses to help meet their ever-changing technology needs.
 
