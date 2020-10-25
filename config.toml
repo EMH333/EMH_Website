@@ -17,7 +17,7 @@ enableGitInfo=true #use git for modification date data
   description = "Ethan Hampton's Website"
   author = "Ethan Hampton"
   sideMenuInfo = "Ethan Hampton is a Oregon State Honors College student studying Computer Science. Ethan loves simple but effective ideas that work at a large scale to help make the world a better place"
-  sideMenuAd = false
+  sideMenuTAI = true
   sideMenuNeat = true
   ignoredMenuTypes = ["images","pages"]
 
