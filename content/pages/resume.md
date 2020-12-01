@@ -17,21 +17,25 @@ with Engineering & Aerospace Sciences Academy and Computer
 Science Pathways  
 Honor Roll, 3.98 / 4.00 GPA, Top 5% of Senior class
 
-#### COMPUTER SCIENCE INTERNSHIPS
-Technology Intern, June 2019 – Present  
-Swedemom LLC.
-
-
-Network Solutions Group Intern, June 2018 -- August 2018  
-Intel Corporation
-
-#### TECHNOLOGY RELATED EXPERIENCE
-Co-Captain and Lead Programmer, September 2016 -- June 2019  
-McMinnville High School Robotics Team
+#### COMPUTER SCIENCE EXPERIENCE
+Student Systems Engineer, June 2020 -- Present  
+Oregon State University Open Source Lab
 
 
 Founder, 2015 -- Present  
 Ethan M. Hampton Technology Consulting
+
+
+Technology Intern, June 2019 -- September 2019  
+Swedemom LLC.
+
+
+Co-Captain and Lead Programmer, September 2016 -- June 2019  
+McMinnville High School Robotics Team
+
+
+Network Solutions Group Intern, June 2018 -- August 2018  
+Intel Corporation
 
 
 #### AUDIO AND VISUAL ENGINEERING EXPERIENCE
