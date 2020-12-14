@@ -25,7 +25,7 @@ echo "Ethan Hampton's command line tool!"
 It took a bit of searching to figure out where to place it but eventually I discovered I could put it in my home directory in the "bin" folder (`$HOME/bin`)
 and by default Ubuntu would allow me to run that from the command line. 
 
-I typed '`emh`' into the command line (that is what I titled the file), and it outputed '`Ethan Hamptons command line tool`'. Just like I wanted! I should mention I titled the program
+I typed '`emh`' into the command line (that is what I titled the file), and it outputed '`Ethan Hampton's command line tool`'. Just like I wanted! I should mention I titled the program
 "emh" because those are my initials and they are easy to remember plus they are short.
 
 Now on to the fun stuff! I had to figure out how to do something along the lines of '`emh update`' which is the command I wanted to run in order to update my system. It turns out that
@@ -53,5 +53,7 @@ I also have some additional 'run' functionality with `emh.json` files but I will
 if you like simply by creating another if statement and putting the commands you want to run in there. 
 It is worth noting I could have created aliases or done some other stuff to do this same thing but I wanted to give this a shot. I know this isn't best practice code either but I had 
 to start somewhere and it works for my use case. I will do a refactor if needed.
+
+The current version, that I use every day, is on GitHub and can be found [here](https://github.com/EMH333/emh_cmd). 
 
 Thanks for following along and hopefully this helped someone work on their own personal command line interface!

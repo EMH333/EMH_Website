@@ -3,7 +3,7 @@ title: "There are a lot of people on Earth..."
 Date: 2018-03-17T17:13:00-08:00
 author: Ethan Hampton
 Category: Life Lessons, Real Life, Teen Life
-Tags: [Acts of Kindness, Biggest, Coffee, Crazy, Create, Earth, FTC, life, new, People, Problems, Roads, Rubik's Cube, Scale, Trash, unexperienced]
+Tags: [Acts of Kindness, Biggest, Coffee, Crazy, Create, Earth, FTC, life, People, Problems, Roads, Rubik's Cube, Scale, Trash, unexperienced]
 Slug: there-are-people-on-earth
 ---
 
@@ -132,23 +132,17 @@ just the same way you are.
 ........................................................................
 ................................
 
-Now realize that each dot is actually represents 1,488,400 individual
+Now realize that each dot is actually represents 1,488,400 individual
  lives. That is approximately how many people are
 currently living on Earth. Wow! That's kind of crazy to think about.
 Then, you need to realize where you stand. You are only one dot. And even
 that is not correct, you are actually 1 of 1,488,400 people that dot represents. Those
 1,488,400 people now become the people that are just enough like you so
 they might like the same things as you or do the same sports. For
-perspective, the population of Hawaii is about 1.428 million. Also, the
+perspective, the population of Hawaii is about 1.428 million. Also, the
 amount of people in the USA that rock climb on a regular basis is about
 9 million
 (<https://www.climbing.com/news/first-national-study-to-examine-rock-climbing-related-injuries/>).
-
-
-[![Photo
-of child sifting through trash other people have
-left](https://www.ethohampton.com/wp-content/uploads/2018/03/hermes-rivera-265412-unsplash.jpg)](https://unsplash.com/photos/R1_ibA4oXiI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-Photo by Hermes Rivera on Unsplash
 
 What happens if your "group" each decides to pick up a piece of garbage
 while hiking? Over 1.4 million pieces of garbage would be picked up!
@@ -170,16 +164,13 @@ list. If you (like myself :) ) made it to a FIRST FTC Super Regionals
 tournament then you are in the top 288 teams out of a total of 5278.
 This means you are in the top 5.4% of all FTC teams. This year, because
 of ranking, my team is actually in the top 3.8% of teams. Pretty crazy.
-(If you want more crazy numbers then check [this
-article](https://www.ethohampton.com/2016/06/prescotts-biggest-number/)
-out!)
 
 You are currently living 1 year of your life out of the total
 12,409,170,000 years of life lived by people currently in the United
 States. By being average, you are still "better" in some way than 50% of
 the population. Be adventurous! Think about how many peoples lives you
 have impacted in a good way. If you are proud of that number, great. If
-you aren't, then you better start somewhere. Visit <http://freerice.com>
+you aren't, then you better start somewhere. Visit <http://freerice.com>
 (Yeah that's the only place I could think of where you could still do
-stuff from your phone or computer).  If you do good, then you improve so
+stuff from your phone or computer).  If you do good, then you improve so
 many peoples lives. Go out and do some good!

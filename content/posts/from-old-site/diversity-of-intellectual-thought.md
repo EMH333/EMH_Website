@@ -3,11 +3,11 @@ title: "The Need For Diversity of Intellectual Thought"
 Date: 2017-08-09T12:29:00-08:00
 author: Ethan Hampton
 Category: Life Lessons, Real Life
-Tags: [diversity, Group, Instagram, intellectual, life, new, North Korea, oranges, Problems, Story, thinking, trump, unexperienced, Zack Geary]
+Tags: [diversity, instagram, intellectual, life, oranges, story, thinking, trump, unexperienced]
 Slug: diversity-of-intellectual-thought
 ---
 
-With the whole deal about the (now ex)Google employ who wrote about
+With the whole deal about the (now ex)Google employee who wrote about
 diversity in the tech industry, I read several very interesting
 articles. They covered very different view points and did not agree with
 each other but one thing in particular stood out. The CNN opinion
@@ -20,12 +20,9 @@ written by Marc Randazza said this,
 > has greater success."
 
 That struck me. Diversity of intellectual thought. We don't hear that
-phrase come up in our day to day life but it is actually really
-important. I thought I would take a look at what makes up intellectual
-thought and what it means for our day to day life.
+phrase come up in day to day life but it is something that should be focused on more.
 
-How do we define Diversity of Intellectual Thought?
----------------------------------------------------
+## How Do We Define Diversity of Intellectual Thought?
 
 "Diversity of intellectual thought" is a very hard phrase to define. The
 phrase includes the words, "Diversity" and "Intellectual", both have
@@ -36,24 +33,24 @@ by Merriam-Webster is,
 > inclusion of different types of people (such as people of different
 > races or cultures) in a group or organization"
 
-Alright we can deal with that. How about Intellectual? "Intellectual"
+Alright, we can deal with that. How about Intellectual? "Intellectual"
 defined by Merriam-Webster is,
 
 > "of or relating to the intellect or its use"
 
-Not very helpful. How about "Intellect"? Much better,
+Not very helpful. How about "Intellect"?
 
-> "
-> 1.*a*:  the power of knowing as distinguished from
+> 1.
+>> *a*:  the power of knowing as distinguished from
 > the power to feel and to will: the capacity for
 > knowledge
 
->  1.*b*: the capacity for rational or intelligent
+>> *b*: the capacity for rational or intelligent
 > thought especially when highly developed
 
-> 2.  a person with great intellectual powers
-> "
+> 2. a person with great intellectual powers
 
+Much better!
 
 So combine the definitions that make the most sense together and you
 get,"The condition of having rational or intelligent thinking, composing
@@ -67,7 +64,7 @@ intelligent choices based off of those perspectives". I think this does
 a better job of defining the phrase for me but you have to decide for
 your self.
 
-# What!?!??!?
+## What!?
 
 Diversity is a subject that has a lot of barbed edges and can lead to
 many problems if not handled correctly. So, I'm not going to get in to
@@ -128,7 +125,7 @@ them. When Zack was telling this particular story, I immediately though
 about just cutting the orange in half, it made sense. In reality though,
 the answer took a little more work then that.
 
-# The Real World
+## The Real World
 
 If the world were full of people who would cut the orange in half when
 confronted with this problem, the children would not get what they want.
@@ -161,7 +158,7 @@ document directly to Google's heads, then the results might have been
 different. It is hard to say how, but I believe by having a respectful
 conversation about this we can improve the workplace.
 
-# BE INTELLIGENT
+## BE INTELLIGENT
 
 Notice how I say, intellectual though and not simply thought. A thought
 might be, "Democrats suck, I hate them". A intellectual thought, as an
@@ -178,7 +175,7 @@ point to the opposite of what he was saying. The issue of education is a
 large topic I will also save for another time but its a big problem.
 Only 32.5% of Americans 25 or older hold a college degree of some sort
 [1]. That seems low to me, but when doing research, only Norway has a
-higher rate at 35%, that is crazy.  Now, granted a college degree does
+higher rate at 35%, that is crazy.  Now, granted a college degree does
 not necessarily mean you are intelligent, I consider it a good
 indicator. I am willing to bet that if we applied an intellectual
 thought process to our election, the outcome would have been different
@@ -201,7 +198,7 @@ guilty of symbolism but we need to take a look at how it is effecting
 our democracy. I believe it is harming our grasp of what actually needs
 to get fixed.
 
-# Conclusion
+## Conclusion
 
 Intelligence is critical, it helps determine when someone is lying and
 when someone is telling the truth. Intellectual thought helps you

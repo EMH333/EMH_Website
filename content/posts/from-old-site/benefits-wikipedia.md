@@ -44,7 +44,7 @@ thousands of people” ("Education/Reasons to use Wikipedia"). Working to
 create a global encyclopedia is a big deal and having the ability to
 edit at your fingertips is a privilege that should not be taken lightly.
 
-##### Wikipedia isn't your normal editing experience
+#### Wikipedia isn't your normal editing experience
 
 Creating and editing Wikipedia articles forces people to become better
 writers. There are many examples of people coming to Wikipedia with the
@@ -72,7 +72,7 @@ more adaptive and ready to quickly change when others request it.
 
 When looking at the amount of editing happening across Wikipedia at once, the amount of work put in becomes very evident. When it comes to the scale of things, I think I have it pretty well [figured out](https://www.ethohampton.com/2018/03/there-are-people-on-earth/) but the [recent changes](https://en.wikipedia.org/wiki/Special:RecentChanges) page of Wikipedia still amazes me.
 
-##### Also, Wikipedia has the Benefit of Being Unbiased
+#### Also, Wikipedia has the Benefit of Being Unbiased
 
 Wikipedia also is supposed to have unbiased information about all
 topics. In fact, listed as one of the “Five Pillars” of Wikipedia is the
@@ -85,7 +85,7 @@ This is a really important idea because it means that as long as people
 are preventing a page from slowly becoming misinformation, Wikipedia is
 a reliable source of information.
 
-##### It also expands your knowledge
+#### It also expands your knowledge
 
 Wikipedia does a great job to expanding the knowledge of people
 visiting. Because Wikipedia highly recommends to include inter-wiki
@@ -151,7 +151,7 @@ person can collectively make a huge difference.
 
 “Can 15-Year-Old Wikipedia Remain The Planet's Font of All Knowledge?”
 _Post_ _Magazine_, South China Morning
-Post, [https://www.scmp.com/magazines
+Post, [https://www.scmp.com/magazines
 /post-magazine/arts-entertainment/article/1903400/can-15-year-old-wikipedia-remain-planets](http://www.scmp.com/magazines/post-magazine/arts-entertainment/article/1903400/can-15-year-old-wikipedia-remain-planets)
 20 Jan. 2016, .
 
