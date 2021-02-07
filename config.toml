@@ -1,7 +1,7 @@
 baseURL = "https://www.ethohampton.com"
 languageCode = "en-us"
 title = "Ethan Hampton"
-theme="EMH_Green_Theme_link"
+theme="EMH_Green_Theme"
 sectionPagesMenu = "main"
 googleAnalytics = "UA-66393601-1"
 
