@@ -8,7 +8,7 @@ tags = ["Resume","Education","Work", "Computer Science", "Software Engineer"]
 title = "Résumé"
 +++
 
-# Ethan Hampton Résumé
+# Ethan Hampton's Résumé
 #### EDUCATION
 Honors Bachelor of Computer Science, Oregon State University, Expected June 2023
 

@@ -1,7 +1,7 @@
 baseURL = "https://www.ethohampton.com"
 languageCode = "en-us"
 title = "Ethan Hampton"
-theme="EMH_Green_Theme"
+theme="EMH_Green_Theme_link"
 sectionPagesMenu = "main"
 googleAnalytics = "UA-66393601-1"
 
@@ -30,11 +30,19 @@ enableGitInfo=true #use git for modification date data
     name = "Home"
     title = "Home"
     url = "/"
+    weight = 1
   [[menu.main]]
     identifier = "resume"
     name = "Résumé"
     title = "Résumé"
     url = "/pages/ethan-hampton-resume"
+    weight = 3
+  [[menu.main]]
+    identifier = "infrastructure"
+    name = "Infrastructure"
+    title = "Infrastructure"
+    url = "/pages/infrastructure"
+    weight = 2
 #  [[menu.main]]
 #    identifier = "projects"
 #    name = "Projects"
