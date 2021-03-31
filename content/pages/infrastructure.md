@@ -13,7 +13,7 @@ title = "Infrastructure"
 
 Below is a list of the infrastructure (both digital and physical) I use on a regular basis.
 
-Last updated: 06-Feb-2021
+Last updated: 30-March-2021
 
 ## Hardware:
 
@@ -21,6 +21,7 @@ Last updated: 06-Feb-2021
 - OnePlus 7 Pro 256GB running Android 10
 - A basic 1080p Dell monitor
 - Logitech M570 Mouse
+- Yamaha P125 Piano Keyboard
 - Various external hard drives
 
 ## Cloud Services:  

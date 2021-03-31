@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Ethan Hampton"
 theme="EMH_Green_Theme"
 sectionPagesMenu = "main"
-googleAnalytics = "UA-66393601-1"
 
 pygmentsCodefencesGuessSyntax=true
 pygmentsCodeFences=true

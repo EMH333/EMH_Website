@@ -18,7 +18,10 @@ Science Pathways
 Honor Roll, 3.98 / 4.00 GPA, Top 5% of Senior class
 
 #### COMPUTER SCIENCE EXPERIENCE
-Student Systems Engineer, June 2020 -- Present  
+Software Engineering Intern, June 2020 -- March 2021
+Collins Aerospace
+
+Student Systems Engineer, June 2020 -- March 2021
 Oregon State University Open Source Lab
 
 
@@ -82,4 +85,4 @@ Ham Fam Harvest Fun Run and Walk
 Email: [ethohampton@gmail.com](mailto:etho@ethohampton.com)
 
 
-Last Updated 15-Dec-2020
+Last Updated 30-Mar-2021
