@@ -18,10 +18,10 @@ Science Pathways
 Honor Roll, 3.98 / 4.00 GPA, Top 5% of Senior class
 
 #### COMPUTER SCIENCE EXPERIENCE
-Software Engineering Intern, June 2020 -- March 2021
+Software Engineering Intern, June 2020 -- March 2021  
 Collins Aerospace
 
-Student Systems Engineer, June 2020 -- March 2021
+Student Systems Engineer, June 2020 -- March 2021  
 Oregon State University Open Source Lab
 
 
