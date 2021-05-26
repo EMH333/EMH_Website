@@ -13,7 +13,7 @@ title = "Infrastructure"
 
 Below is a list of the infrastructure (both digital and physical) I use on a regular basis.
 
-Last updated: 30-March-2021
+Last updated: 25-May-2021
 
 ## Hardware:
 
@@ -22,6 +22,7 @@ Last updated: 30-March-2021
 - A basic 1080p Dell monitor
 - Logitech M570 Mouse
 - Yamaha P125 Piano Keyboard
+- Yubikey 5C NFC (for 2 factor authentication)
 - Various external hard drives
 
 ## Cloud Services:  
