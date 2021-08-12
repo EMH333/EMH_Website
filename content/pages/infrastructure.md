@@ -4,7 +4,7 @@ date = "2021-02-06T16:24:10+0000"
 description = "The infrastructure I use on a regular basis"
 draft = false
 slug = "infrastructure"
-tags = ["Infrastructure","Work", "Computer Science", "Software Engineer"]
+tags = ["Infrastructure", "Work", "Computer Science", "Software Engineer"]
 title = "Infrastructure"
 +++
 
@@ -13,23 +13,24 @@ title = "Infrastructure"
 
 Below is a list of the infrastructure (both digital and physical) I use on a regular basis.
 
-Last updated: 25-May-2021
+As a result of my current infrastructure setup, a critical failure on part of Cloudflare, Backblaze, Azure or Google would cripple my online presence. This is something I am actively working to defend against by slowly moving to infrastructure that I have direct control over. Cloud services are incredibly convenient which has slowed that transition.
+
+**List Last Updated: 11-Aug-2021**
 
 ## Hardware:
 
 - Dell XPS 7590 (Intel i7-9750H, 16GB RAM, 4k OLED display) running Pop!_OS 20.10
-- OnePlus 7 Pro 256GB running Android 10
+- OnePlus 7 Pro 256GB running Android 11
 - A basic 1080p Dell monitor
 - Logitech M570 Mouse
 - Yamaha P125 Piano Keyboard
 - Yubikey 5C NFC (for 2 factor authentication)
 - Various external hard drives
 
-## Cloud Services:  
+## Cloud Services:
 
 - Backblaze - Used for backup and long term archival storage
 - Azure - Hosts most infrastructure for Ethan M. Hampton Technology Consulting
-- Unnamed web host service - Currently hosts website, to be migrated to Azure at a later date
 - Cloudflare - Provides DDoS protection and other helpful services
 - Google - Email, other random document storage, calendar, some domain registration, etc.
 
