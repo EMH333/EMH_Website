@@ -3,7 +3,7 @@ name: Build Hugo
 on:
   push:
     branches-ignore: 
-      - 'master' #Already building if on master, no point in building again
+      - 'main' #Already building if on main, no point in building again
 
 jobs:
   build:
@@ -20,7 +20,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: 'latest' #note we are using the latest version here for testing, need to be updated manually for master
+        hugo-version: 'latest' #note we are using the latest version here for testing, need to be updated manually for main
         extended: true
 
     - name: Run the hugo build
