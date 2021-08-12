@@ -27,14 +27,14 @@ jobs:
     - name: Run the hugo build
       run: hugo -v --minify
 
-	- name: Deploy to server
-	  id: deploy
-	  uses: Pendect/action-rsyncer@v1.1.0
-	  env:
-		DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
-	  with:
-		flags: '-vzr --delete'
-		options: ''
-		ssh_options: ''
-		src: 'public/'
-		dest: 'emh-web-deploy@${{ secrets.DEPLOY_SERVER }}:/var/www/html/ethohampton.com'
+    - name: Deploy to server
+      id: deploy
+      uses: Pendect/action-rsyncer@v1.1.0
+      env:
+        DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
+      with:
+        flags: '-vzr --delete'
+        options: ''
+        ssh_options: ''
+        src: 'public/'
+        dest: 'emh-web-deploy@${{ secrets.DEPLOY_SERVER }}:/var/www/html/ethohampton.com'
