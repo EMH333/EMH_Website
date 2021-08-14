@@ -33,7 +33,7 @@ jobs:
       env:
         DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
       with:
-        flags: '-vzr --delete'
+        flags: '-vzcr --delete'
         options: ''
         ssh_options: ''
         src: 'public/'
