@@ -1,0 +1,24 @@
+<li class="summary-item">
+    <article>
+        <!-- this <div> includes the title summary -->
+        <div>
+            <div class="summary-item-title">
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                <div class="details">
+                    <span> {{.Date.Format "02-Jan-2006"}}</span>
+                    |
+                    <span>{{ .WordCount }} Words</span>
+                    |
+                    <span>{{ .ReadingTime}} min read</span>
+                </div>
+            </div>
+            {{safeHTML .Summary }}
+        </div>
+        {{ if .Truncated }}
+        <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+        <div>
+            <a href="{{ .RelPermalink }}">Read More…</a>
+        </div>
+        {{ end }}
+    </article>
+</li>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ if .IsHome -}}
+    <title>{{ .Site.Title }}</title>
+    {{- else -}}
+    <title>{{ .Title }} – {{ .Site.Title }}</title>
+    {{- end }}
+
+    {{ hugo.Generator }}
+
+    <!-- Internal templates -->
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/google_news.html" . }}
+    {{ template "_internal/schema.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+
+    {{ with .Site.Params.author }}
+    <meta name="author" content="{{ . }}">
+    {{ end }}
+
+    {{ if .Params.canonicalUrl }}
+    <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+    {{ else }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ end }}
+
+    <!-- RSS -->
+    <link href="{{ "/posts/index.xml" | relURL }}" rel="alternate" type="application/rss+xml"
+        title="{{- .Site.Title -}}" />
+    <link href="{{ "/posts/index.xml" | relURL }}" rel="feed" type="application/rss+xml" title="{{- .Site.Title -}}" />
+
+    {{ block "head" .}} {{ end }}
+    <!-- Code for head from page -->
+
+    {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" false "includePaths" "")}}
+    {{ $style := resources.Get "/scss/main.scss" | resources.ToCSS $options | resources.Minify }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
+    <!-- TODO add favicon -->
+</head>
+
+<body>
+    <div class="container">
+        {{ partial "header/header.html" . }}
+        <!-- Code that all your templates share, like a header -->
+        <div class="body-container">
+            <div class="content">
+                {{ block "main" . }}
+                <!-- The part of the page that begins to differ between templates -->
+                {{ end }}
+            </div>
+            {{ partial "sidemenu/sidemenu.html" . }}
+        </div>
+        {{ block "footer" . }}
+        <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
+        {{ end }}
+
+        {{ partial "footer/footer.html" . }}
+    </div>
+</body>
+
+</html>

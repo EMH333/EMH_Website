@@ -1,0 +1,28 @@
+<header class="header">
+    <a href="/"><img src="/img/logo.png" alt="Logo" width="100" height="100"></a>
+    <a href="/"><h1>{{ .Site.Title }}</h1></a>
+    <div class="nav">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        {{ $banned := in $.Site.Params.ignoredMenuTypes .Identifier}}
+        {{ if not $banned }}
+        {{ if .HasChildren }}
+        <div class="dropdown">
+            <a href="#" class="dropdown-toggle">
+                {{.Name }} <span class="caret"></span></a>
+            <div class="dropdown-content">
+                {{ range .Children }}
+                <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}"
+                    href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+                {{ end }}
+            </div>
+        </div>
+        {{ else }}
+        <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}"
+            href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </div>
+</header>
+<hr>

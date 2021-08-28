@@ -1,0 +1,85 @@
+{{ $src := (.Get "src") }}
+{{ $title := (.Get "title") }}
+{{ $full := (.Get "full") | default "false" }}
+{{ $resize := (.Get "resize") | default "true" }}
+
+{{ $style := (.Get "style") }}
+
+{{ $width := (.Get "width") }}
+
+{{ $fileName := index (last 1 (split $src "/")) 0 }}
+{{ $imageName := index (split $fileName ".") 0 }}
+
+{{ $original := .Page.Resources.GetMatch (printf "%s*" ($imageName)) }}
+
+{{ if $original }}
+  {{ if eq $resize "true" }}
+
+  {{ if gt ($original.Width) 400 }}
+    {{ $.Scratch.Set "resize_400" ($original.Resize "400x") }}
+  {{ else }}
+    {{ $.Scratch.Set "resize_400" ($original) }}
+  {{ end }}
+
+  {{ if gt ($original.Width) 700 }}
+    {{ $.Scratch.Set "resize_700" ($original.Resize "700x") }}
+  {{ else }}
+    {{ $.Scratch.Set "resize_700" ($original) }}
+  {{ end }}
+
+  {{ if gt ($original.Width) 1000 }}
+    {{ $.Scratch.Set "resize_1000" ($original.Resize "1000x") }}
+  {{ else }}
+    {{ $.Scratch.Set "resize_1000" ($original) }}
+  {{ end }}
+
+  {{ if gt ($original.Width) 1300 }}
+    {{ $.Scratch.Set "resize_1300" ($original.Resize "1300x") }}
+  {{ else }}
+    {{ $.Scratch.Set "resize_1300" ($original) }}
+  {{ end }}
+
+  {{ if gt ($original.Width) 1600 }}
+    {{ $.Scratch.Set "resize_1600" ($original.Resize "1600x") }}
+  {{ else }}
+    {{ $.Scratch.Set "resize_1600" ($original) }}
+  {{ end }}
+
+  <!--Sizes is 100% for now, but that should change once I feel like it-->
+  <img
+      {{ if eq $full "true" }}class="full"{{ end }}
+      src="{{ $original.RelPermalink }}"
+      srcset="
+      {{ ($.Scratch.Get "resize_400").RelPermalink }} 400w,
+      {{ ($.Scratch.Get "resize_700").RelPermalink }} 700w,
+      {{ ($.Scratch.Get "resize_1000").RelPermalink }} 1000w,
+      {{ ($.Scratch.Get "resize_1300").RelPermalink }} 1300w,
+      {{ ($.Scratch.Get "resize_1600").RelPermalink }} 1600w,
+      {{ $original.RelPermalink }} {{ with $original.Width }}{{.}}w{{ end }}
+      "
+      sizes="100vw"
+      {{ if $title }}alt="{{ $title }}"{{ end }}
+      {{ if $style}}style="{{ $style | safeCSS }}"{{ end }}
+      {{ if $width }}width="{{ $width }}"{{ end }}
+  >
+
+  {{ $.Scratch.Delete "resize_320" }}
+  {{ $.Scratch.Delete "resize_480" }}
+  {{ $.Scratch.Delete "resize_768" }}
+  {{ $.Scratch.Delete "resize_1024" }}
+  {{ $.Scratch.Delete "resize_1280" }}
+  {{ $.Scratch.Delete "resize_1600" }}
+  {{ $.Scratch.Delete "resize_1920" }}
+  {{ else }}
+  <img
+      {{ if eq $full "true" }}class="full"{{ end }}
+      src="{{ $original.RelPermalink }}"
+      {{ if $title }}alt="{{ $title }}"{{ end }}
+      {{ if $style}}style="{{ $style | safeCSS }}"{{ end }}
+      {{ if $width }}width="{{ $width }}"{{ end }}
+  >
+  {{ end }}
+{{ else }}
+  <b>{{ printf "Couldn't find %s in page directory" $fileName}}</b>
+  <br>
+{{ end }}

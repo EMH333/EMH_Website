@@ -1,0 +1,17 @@
+{{ define "head" }}
+{{ partial "seo/seo-ld-json.html" . }}
+{{ end }}
+{{ define "main" }}
+<section id="main">
+  <div id="content">
+    {{ .Content }}
+  </div>
+</section>
+<aside id="meta">
+  <div>
+    <section>
+      <p id="date">Published {{ .Date.Format "Mon Jan 2, 2006 at 03:04PM" }} </p>
+    </section>
+  </div>
+</aside>
+{{ end }}

@@ -1,0 +1,26 @@
+<div id="neatBox" style="display: none;">
+    <h3><span>Neat Internet Things</span></h3>
+    <div id="neatList"></div>
+    (A random assortment of things on the Internet I find cool)
+
+    <script>
+        var list = document.getElementById("neatList");
+
+        fetch("https://neat.ethohampton.com/json").then(function (resp) {
+            return resp.json();
+        }).then(function (json) {
+            for (var i = json.length-1; i >= 0; i--) {
+                list.innerHTML += "<li><a href='" + sanatize(json[i].URL) + "'>" + sanatize(json[i].Description) + "</a></li>"
+            }
+            document.getElementById("neatBox").style.display = "block";//unhide box
+        });
+
+        function sanatize(value) {
+            var lt = /</g,
+                gt = />/g,
+                ap = /'/g,
+                ic = /"/g;
+            return value.toString().replace(lt, "&lt;").replace(gt, "&gt;").replace(ap, "&#39;").replace(ic, "&#34;");
+        }
+    </script>
+</div>

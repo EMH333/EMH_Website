@@ -1,0 +1,9 @@
+$theme-color: #307924 !default;
+$background-color: white !default;
+$text-color: #555 !default; 
+$title-color: black !default;
+$button-background: darken($background-color, 20%);
+
+$column-width: 400px;
+$content-width: ($column-width * 2) - 45px; // unsure about the 45px
+$container-width: ($column-width * 3) + 50px; // 50 is 24 (for middle margin) + 24 (for edge)

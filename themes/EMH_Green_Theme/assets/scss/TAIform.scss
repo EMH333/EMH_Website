@@ -1,0 +1,16 @@
+.TAIform {
+  .embeddable-buttondown-form input[type="submit"] {
+    background-color: $button-background;
+    color: $text-color;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    border: none;
+  }
+
+  .embeddable-buttondown-form input[type="submit"]:hover {
+    color: $background-color;
+    background: $theme-color;
+  }
+}

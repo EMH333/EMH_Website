@@ -1,0 +1,18 @@
+<div class="side-menu">
+    <p>{{.Site.Params.sideMenuInfo}}</p>
+
+    {{if .Site.Params.sideMenuTAI}}
+        {{ partial "sidemenu/TAIform.html" . }}
+    {{ end }}
+
+    {{if .Site.Params.sideMenuNeat}}
+        {{ partial "sidemenu/neatList.html" . }}
+    {{ end }}
+
+
+    <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. -->
+    <h3><span>Recent Posts</span></h3>
+    {{ range first 5 (where .Site.RegularPages "Type" "posts") }}
+    {{ .Render "li"}}
+    {{ end }}
+</div>
