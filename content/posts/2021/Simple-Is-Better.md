@@ -6,7 +6,7 @@ description: "Simple solutions for simple problems create the best solutions"
 aliases: []
 date: 2021-08-28T14:49:56-07:00
 author: "Ethan Hampton"
-draft: false
+draft: true
 ---
 Simple solutions for simple problems often create the best solutions. When you have control over the entire situation, then there is very little point in adding unneeded complexity.
 <!--more-->
