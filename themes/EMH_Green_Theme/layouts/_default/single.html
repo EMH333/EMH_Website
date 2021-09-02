@@ -23,7 +23,7 @@
     <div id="categories">
       <h4>Categories:</h4>
       {{ range . }}
-      <a href="{{ "categories" | absURL}}/{{ . | urlize }}">{{ . }}</a>,
+      <a href="{{ "categories" | absURL}}/{{ . | urlize }}/">{{ . }}</a>,
       {{ end }}
     </div>
     {{ end }}
@@ -31,7 +31,7 @@
     <div id="tags">
       <h4>Tags:</h4>
       {{ range . }}
-      <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a>,
+      <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a>,
       {{ end }}
     </div>
     {{ end }}
