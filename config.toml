@@ -34,13 +34,13 @@ enableGitInfo=true #use git for modification date data
     identifier = "resume"
     name = "Résumé"
     title = "Résumé"
-    url = "/pages/ethan-hampton-resume"
+    url = "/pages/ethan-hampton-resume/"
     weight = 3
   [[menu.main]]
     identifier = "infrastructure"
     name = "Infrastructure"
     title = "Infrastructure"
-    url = "/pages/infrastructure"
+    url = "/pages/infrastructure/"
     weight = 2
 #  [[menu.main]]
 #    identifier = "projects"
