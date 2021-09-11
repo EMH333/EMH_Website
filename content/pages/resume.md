@@ -18,16 +18,16 @@ Science Pathways
 Honor Roll, 3.98 / 4.00 GPA, Top 5% of Senior class
 
 #### COMPUTER SCIENCE EXPERIENCE
-Software Engineering Intern, March 2021 -- Present  
+Founder, 2015 -- Present  
+Ethan M. Hampton Technology Consulting
+
+
+Software Engineering Intern, March 2021 -- September 2021  
 Collins Aerospace
 
 
 Student Systems Engineer, June 2020 -- March 2021  
 Oregon State University Open Source Lab
-
-
-Founder, 2015 -- Present  
-Ethan M. Hampton Technology Consulting
 
 
 Technology Intern, June 2019 -- September 2019  
@@ -46,15 +46,18 @@ Intel Corporation
 Elected Student Leader, December 2017 -- June 2018  
 Magruder Music Art Drama Dance (MADD) Camp Council
 
-Sound and Visual Production Engineer, 2016 - Present  
+Sound and Visual Production Engineer, 2016 -- Present  
 Marchant Dance Corporation and McMinnville Cooperative Ministries
 
 #### HONORS AND COMMUNITY INVOLVEMENT
+Peer Mentor, September 2021 -- Present  
+Oregon State University Honors College
+
+Secretary, June 2021 -- Present  
+Oregon State University Linux User Group
+
 Member, September 2019 – Present  
 Engineering Leadership Academy, Grand Challenges Scholars Program and MECOP Internship Program
-
-Selected Member, 2017 - 2019  
-National Honor Society
 
 
 FIRST Tech Challenge (FTC) Dean's List Semi Finalist, 2017 - 2018
@@ -86,4 +89,4 @@ Ham Fam Harvest Fun Run and Walk
 Email: [ethohampton@gmail.com](mailto:etho@ethohampton.com)
 
 
-Last Updated 30-Mar-2021
+Last Updated 11-Sep-2021
