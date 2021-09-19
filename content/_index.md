@@ -14,7 +14,7 @@ tags:
 ---
 {{< image src="headshot.jpg" title="Ethan Hampton" style="width:10em; margin-left: auto; margin-right: auto;" width="160">}}
 
-My name is Ethan Hampton and I am currently working full time as a software engineering intern at Collins Aerospace. I am attending Oregon State University Honors College, majoring in Computer Science. I also enjoy working as a self-employed technology consultant.
+My name is Ethan Hampton and I am currently attending Oregon State University Honors College, majoring in Computer Science. I have the pleasure of working for the [Oregon State Open Source Lab](https://osuosl.org), supporting a wide variety of Open Source projects. Additionally, I work as a self-employed technology consultant.
 
 My technology preferences are all over the place. For example, the range of languages I like to experiment with is JavaScript, Java, Kotlin, Go, HTML(CSS, SCSS etc.), V, Python, C++, C# and so on. My main operating system is Pop_OS (a Ubuntu derivative) and I love having the flexibility the Linux environment provides. I take great pride in finding the right solution for every situation and I am currently working with several individuals and businesses to help meet their ever-changing technology needs.
 
