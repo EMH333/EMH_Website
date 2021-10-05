@@ -18,7 +18,7 @@ enableGitInfo=true #use git for modification date data
   sideMenuInfo = "Ethan Hampton is a Oregon State Honors College student studying Computer Science. Ethan loves simple but effective ideas that work at a large scale to help make the world a better place"
   sideMenuTAI = true
   sideMenuNeat = true
-  ignoredMenuTypes = ["images","pages"]
+  ignoredMenuTypes = ["images","pages","goverment"]
 
 [author]
   name = "Ethan Hampton"
@@ -42,6 +42,12 @@ enableGitInfo=true #use git for modification date data
     title = "Infrastructure"
     url = "/pages/infrastructure/"
     weight = 2
+  [[menu.main]]
+    identifier = "asosu"
+    name = "ASOSU"
+    title = "ASOSU"
+    url = "/goverment/"
+    weight = 4
 #  [[menu.main]]
 #    identifier = "projects"
 #    name = "Projects"
