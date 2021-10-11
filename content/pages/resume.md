@@ -86,7 +86,7 @@ Ham Fam Harvest Fun Run and Walk
 -   $1,800+ and two barrels of food raised each year
 
 ## Contact
-Email: [ethohampton@gmail.com](mailto:etho@ethohampton.com)
+Email: [etho@ethohampton.com](mailto:etho@ethohampton.com)
 
 
 Last Updated 11-Sep-2021
