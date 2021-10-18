@@ -2,6 +2,8 @@
 {{ $title := (.Get "title") }}
 {{ $full := (.Get "full") | default "false" }}
 {{ $resize := (.Get "resize") | default "true" }}
+{{ $loading := (.Get "loading") | default "auto" }}
+{{ $click := (.Get "click") | default "false" }}
 
 {{ $style := (.Get "style") }}
 
@@ -14,6 +16,8 @@
 
 {{ if $original }}
   {{ if eq $resize "true" }}
+
+  {{ $src_original := $original }}
 
   {{ if gt ($original.Width) 400 }}
     {{ $.Scratch.Set "resize_400" ($original.Resize "400x") }}
@@ -41,26 +45,29 @@
 
   {{ if gt ($original.Width) 1600 }}
     {{ $.Scratch.Set "resize_1600" ($original.Resize "1600x") }}
+    {{ $src_original = ($.Scratch.Get "resize_1600") }}
   {{ else }}
     {{ $.Scratch.Set "resize_1600" ($original) }}
   {{ end }}
 
   <!--Sizes is 100% for now, but that should change once I feel like it-->
+  <!--from srcset, removed to preserve bandwidth {{ $original.RelPermalink }} {{ with $original.Width }}{{.}}w{{ end }} -->
   <img
       {{ if eq $full "true" }}class="full"{{ end }}
-      src="{{ $original.RelPermalink }}"
+      src="{{ $src_original.RelPermalink }}"
       srcset="
       {{ ($.Scratch.Get "resize_400").RelPermalink }} 400w,
       {{ ($.Scratch.Get "resize_700").RelPermalink }} 700w,
       {{ ($.Scratch.Get "resize_1000").RelPermalink }} 1000w,
       {{ ($.Scratch.Get "resize_1300").RelPermalink }} 1300w,
       {{ ($.Scratch.Get "resize_1600").RelPermalink }} 1600w,
-      {{ $original.RelPermalink }} {{ with $original.Width }}{{.}}w{{ end }}
       "
       sizes="100vw"
+      loading="{{ $loading }}"
       {{ if $title }}alt="{{ $title }}"{{ end }}
       {{ if $style}}style="{{ $style | safeCSS }}"{{ end }}
       {{ if $width }}width="{{ $width }}"{{ end }}
+      {{ if eq $click "true" }}onclick="window.open('{{ $original.RelPermalink }}')"{{ end }}
   >
 
   {{ $.Scratch.Delete "resize_320" }}
@@ -77,6 +84,7 @@
       {{ if $title }}alt="{{ $title }}"{{ end }}
       {{ if $style}}style="{{ $style | safeCSS }}"{{ end }}
       {{ if $width }}width="{{ $width }}"{{ end }}
+      {{ if eq $click "true" }}onclick="window.open('{{ $original.RelPermalink }}')"{{ end }}
   >
   {{ end }}
 {{ else }}
