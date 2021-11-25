@@ -9,11 +9,14 @@
     <script src="./js.cookie.min.js"></script>
     <script src="./main.js"></script>
     <style>
+    	body {
+    		background-color: rgb(215,63,9);
+    	}
         #timer {
             width: 100%;
             text-align: center;
-            font: 10em sans-serif;
-            font-size: 15vw;
+            font: sans-serif;
+            font-size: 19vw;
             position: absolute;
             top: 50%;
             left: 50%;
@@ -31,13 +34,10 @@
 
 <body>
     <div id="timer">
-        <span id="hour" class="hour"></span>
-        <span class="divider hour">:</span>
-        <span id="minute"></span>
-        <span class="divider">:</span>
-        <span id="second"></span>
-        <span class="divider ms">:</span>
-        <span id="millisecond" class="ms"></span>
+        <span id="hour" class="hour">
+        </span><span class="divider hour">:</span><span id="minute">
+        </span><span class="divider">:</span><span id="second">
+        </span><span class="divider ms">:</span><span id="millisecond" class="ms"></span>
     </div>
     <div class="buttons">
         <button id="start">Start the timer</button>

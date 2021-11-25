@@ -32,10 +32,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
 })
 
 function update() {
+	let hours = 0;
     if(enabled){
         //update timer
         let ms = new Date().getTime() - startTime;
-        let hours = Math.floor(ms / 3600000);
+        hours = Math.floor(ms / 3600000);
         ms = ms % 3600000;
 
         let minutes = Math.floor(ms / 60000);
@@ -48,32 +49,32 @@ function update() {
         document.getElementById("minute").innerHTML = pad(minutes, 2);
         document.getElementById("second").innerHTML = pad(seconds, 2);
         document.getElementById("millisecond").innerHTML = Math.floor(ms/100);
-
-        if(hours == 0) {
-            let divs = document.getElementsByClassName("hour");
-			for (let i = 0; i < divs.length; i++) {
-			  divs[i].style.display = 'none';
-			}
-			divs = document.getElementsByClassName("ms");
-            for (let i = 0; i < divs.length; i++) {
-			  divs[i].style.display = 'inline';
-			}
-        } else {
-            let divs = document.getElementsByClassName("ms");
-			for (let i = 0; i < divs.length; i++) {
-			  divs[i].style.display = 'none';
-			}
-            divs = document.getElementsByClassName("hour");
-			for (let i = 0; i < divs.length; i++) {
-			  divs[i].style.display = 'inline';
-			}
-        }
     }else{
         //reset timer
         document.getElementById("hour").innerHTML = "00";
         document.getElementById("minute").innerHTML = "00";
         document.getElementById("second").innerHTML = "00";
         document.getElementById("millisecond").innerHTML = "0";
+    }
+    
+    if(hours == 0) {
+        let divs = document.getElementsByClassName("hour");
+		for (let i = 0; i < divs.length; i++) {
+		  divs[i].style.display = 'none';
+		}
+		divs = document.getElementsByClassName("ms");
+        for (let i = 0; i < divs.length; i++) {
+		  divs[i].style.display = 'inline';
+		}
+    } else {
+        let divs = document.getElementsByClassName("ms");
+		for (let i = 0; i < divs.length; i++) {
+		  divs[i].style.display = 'none';
+		}
+        divs = document.getElementsByClassName("hour");
+		for (let i = 0; i < divs.length; i++) {
+		  divs[i].style.display = 'inline';
+		}
     }
 }
 
