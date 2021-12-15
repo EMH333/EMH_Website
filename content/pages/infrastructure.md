@@ -15,11 +15,11 @@ Below is a list of the infrastructure (both digital and physical) I use on a reg
 
 As a result of my current infrastructure setup, a critical failure on part of Cloudflare, Backblaze, Azure or Google would cripple my online presence. This is something I am actively working to defend against by slowly moving to infrastructure that I have direct control over. Cloud services are incredibly convenient which has slowed that transition.
 
-**List Last Updated: 11-Aug-2021**
+**List Last Updated: 14-Dec-2021**
 
 ## Hardware:
 
-- Dell XPS 7590 (Intel i7-9750H, 16GB RAM, 4k OLED display) running Pop!_OS 20.10
+- Dell XPS 7590 (Intel i7-9750H, 16GB RAM, 4k OLED display) running Pop!_OS 21.10
 - OnePlus 7 Pro 256GB running Android 11
 - A basic 1080p Dell monitor
 - Logitech M570 Mouse
@@ -85,7 +85,6 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 
 ### GNOME Shell Extensions:
 
-- CPU Power Manager
 - corecoding/Vitals
 - Removable Drive Menu
 - Sound input & output device chooser
