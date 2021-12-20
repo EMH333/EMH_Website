@@ -15,6 +15,9 @@ This page lists various projects that are currently public to the world (at vari
 ## [esbuild-svelte](https://github.com/EMH333/esbuild-svelte)
 This is an [esbuild](https://github.com/evanw/esbuild) plugin that allows the compilation of files from the [Svelte](https://svelte.dev/) framework. These are two of the most efficient front-end development tools I know and it is a clear win to be able to bring them together. Most of my front-end projects use Svelte and/or esbuild in some capacity so I use this all the time.
 
+## [OSU Class Data Explorer](https://osuclassdata.ethohampton.com)
+A fellow student on an Oregon State Computer Science Discord did a FOIA request for all class grade data. They received a spreadsheet of all classes with grade breakdowns from Fall of 2019 to Summer 2021. I turned this raw data into a browsable web interface to view data from any class with more than 10 students at Oregon State University during that time frame. The source code is available [here](https://github.com/EMH333/OSUClassData).
+
 ## [MACAB](https://abday.ethohampton.com)
 My high school had alternating "A" and "B" days which had different classes. It got confusing to know what day was when, so I built a progressive web app! It can work offline and although fairly simple, served an important purpose in my life. I continue to update it when I can, so current students can still use it.
 
