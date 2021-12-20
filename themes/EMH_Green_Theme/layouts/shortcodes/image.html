@@ -50,11 +50,12 @@
     {{ $.Scratch.Set "resize_1600" ($original) }}
   {{ end }}
 
-  <!--Sizes is 100% for now, but that should change once I feel like it-->
+  <!--Note that if the $width (in px) is specified, then that is used to load the correct image-->
+  <!--Otherwise, till the screen is 750px wide, use 100% of page width, then after that, use 50%-->
   <!--from srcset, removed to preserve bandwidth {{ $original.RelPermalink }} {{ with $original.Width }}{{.}}w{{ end }} -->
   <img
       {{ if eq $full "true" }}class="full"{{ end }}
-      src="{{ $src_original.RelPermalink }}"
+      src='{{ ($.Scratch.Get "resize_1600").RelPermalink }}'
       srcset="
       {{ ($.Scratch.Get "resize_400").RelPermalink }} 400w,
       {{ ($.Scratch.Get "resize_700").RelPermalink }} 700w,
@@ -62,7 +63,7 @@
       {{ ($.Scratch.Get "resize_1300").RelPermalink }} 1300w,
       {{ ($.Scratch.Get "resize_1600").RelPermalink }} 1600w,
       "
-      sizes="100vw"
+      {{ if $width }} sizes="{{ $width }}px" {{ else }} sizes="(max-width: 750px) 100vw, 50vw" {{ end }}
       loading="{{ $loading }}"
       {{ if $title }}alt="{{ $title }}"{{ end }}
       {{ if $style}}style="{{ $style | safeCSS }}"{{ end }}
