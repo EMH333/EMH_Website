@@ -67,7 +67,11 @@
       loading="{{ $loading }}"
       {{ if $title }}alt="{{ $title }}"{{ end }}
       {{ if $style}}style="{{ $style | safeCSS }}"{{ end }}
-      {{ if $width }}width="{{ $width }}"{{ end }}
+      {{ if $width }}
+          width="{{ $width }}"
+          {{ $ratio := (div (float $original.Height) $original.Width) }}
+          height="{{ printf "%.3f" (mul (int $width) $ratio)}}"
+      {{ end }}
       {{ if eq $click "true" }}onclick="window.open('{{ $original.RelPermalink }}')"{{ end }}
   >
 
