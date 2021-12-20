@@ -28,7 +28,7 @@ jobs:
       run: hugo -v --minify
 
     - name: Create .gz files
-      run: find public/ -type f \( -name '*.html' -o -name '*.js' -o -name '*.css' -o -name '*.xml' -o -name '*.svg' \) -exec gzip -v -k -f --best {} \;
+      run: find public/ -type f \( -name '*.html' -o -name '*.js' -o -name '*.css' -o -name '*.xml' -o -name '*.svg' \) -exec gzip -v -k -f -n --best {} \;
 
     - name: Deploy to server
       id: deploy
