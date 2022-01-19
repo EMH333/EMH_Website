@@ -6,6 +6,8 @@ author: "Ethan Hampton"
 description: "Memo Regarding ASOSU Decision Package #4 FY2023"
 tags: ["ASOSU"]
 ---
-More information will be filled in here at a later date
+This page contains the most up to date version of the memo I put out which explains why I am against the advocate model for professional staff within ASOSU.
 
-Latest version of memo: [ASOSU-DP4-Memo-V2.pdf](ASOSU-DP4-Memo-V2.pdf)
+This memo was triggered by the changes made by decision package #4 for ASOSU within the FY2023 fee cycle process.
+
+Latest version of memo (updated 19-Jan-2022): [ASOSU-DP4-Memo-V3.pdf](ASOSU-DP4-Memo-V3.pdf)
