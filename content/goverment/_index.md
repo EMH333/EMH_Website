@@ -10,7 +10,7 @@ This is the main page for all of my activity as a Representative for the Associa
 
 ## Office Hours
 
-Fall term 2021, my office hours are Wednesdays from 2-3 in SEC 250. If you would like to meet remotely, that can also be accommodated. Please contact me via my ASOSU email at [asosu.representative12@oregonstate.edu](mailto:asosu.representative12@oregonstate.edu)
+Winter Term 2022, my office hours are Wednesdays from 1-2 in SEC 250. If you would like to meet remotely, that can also be accommodated. Please contact me via my ASOSU email at [asosu.representative12@oregonstate.edu](mailto:asosu.representative12@oregonstate.edu)
 
 ## Legislative Priorities
 
