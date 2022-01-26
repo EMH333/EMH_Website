@@ -17,7 +17,9 @@ html {
 
 body {
     background-color: $theme-color;
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif; 
+    //TODO fix line breaking
+    //TODO confirm font families look okay on all platforms
+    font-family: system-ui, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica", Arial, sans-serif; 
     text-rendering: optimizeLegibility;
     //line-height: 1.5rem;
     font-size: 1.15rem;
@@ -35,6 +37,7 @@ hr {
     max-width: $container-width;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 0.4rem;
 }
 
 .body-container {
@@ -162,8 +165,12 @@ li {
     }
 }
 
-#meta h4,h5{
-    margin: 0.15em 0em;
+#meta {
+    padding-top: 1rem;
+
+    h4,h5{
+        margin: 0.15em 0em;
+    }
 }
 
 .center {
