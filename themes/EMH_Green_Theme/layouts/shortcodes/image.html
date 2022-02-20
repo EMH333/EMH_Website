@@ -1,6 +1,6 @@
 {{ $src := (.Get "src") }}
 {{ $title := (.Get "title") }}
-{{ $full := (.Get "full") | default "false" }}
+{{ $center := (.Get "center") | default "true" }}
 {{ $resize := (.Get "resize") | default "true" }}
 {{ $loading := (.Get "loading") | default "auto" }}
 {{ $click := (.Get "click") | default "false" }}
@@ -54,7 +54,7 @@
   <!--Otherwise, till the screen is 750px wide, use 100% of page width, then after that, use 50%-->
   <!--from srcset, removed to preserve bandwidth {{ $original.RelPermalink }} {{ with $original.Width }}{{.}}w{{ end }} -->
   <img
-      {{ if eq $full "true" }}class="full"{{ end }}
+      {{ if eq $center "true" }}class="center-element"{{ end }}
       src='{{ ($.Scratch.Get "resize_1600").RelPermalink }}'
       srcset="
       {{ ($.Scratch.Get "resize_400").RelPermalink }} 400w,
@@ -84,7 +84,7 @@
   {{ $.Scratch.Delete "resize_1920" }}
   {{ else }}
   <img
-      {{ if eq $full "true" }}class="full"{{ end }}
+      {{ if eq $center "true" }}class="center-element"{{ end }}
       src="{{ $original.RelPermalink }}"
       {{ if $title }}alt="{{ $title }}"{{ end }}
       {{ if $style}}style="{{ $style | safeCSS }}"{{ end }}
