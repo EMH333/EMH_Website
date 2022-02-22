@@ -85,7 +85,8 @@ Elected Student Leader, December 2017 -- June 2018
 Magruder Music Art Drama Dance (MADD) Camp Council
 
 ## Contact
-Email: [etho@ethohampton.com](mailto:etho@ethohampton.com)
+Email: [etho@ethohampton.com](mailto:etho@ethohampton.com)  
+LinkedIn: [https://www.linkedin.com/in/ethan-hampton/](https://www.linkedin.com/in/ethan-hampton/)
 
 
-Last Updated 11-Sep-2021
+Last Updated 22-Feb-2022
