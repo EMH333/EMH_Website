@@ -1,5 +1,5 @@
 ---
-title: "FOIA's Are Easy!"
+title: "FOIAs Are Easy!"
 slug: "easy-foia"
 tags: ["Education", "Projects", "Data", "Outreach"]
 description: "It is incredibly easy to submit a FOIA request. Here is how I submitted one to Oregon State University for grades in every single class offered last term"
