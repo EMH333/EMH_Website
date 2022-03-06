@@ -38,6 +38,9 @@
     {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" false "includePaths" "")}}
     {{ $style := resources.Get "/scss/main.scss" | resources.ToCSS $options | resources.Minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
+
+    <!--A statistics script that stays out of the way and is self-hosted-->
+    <script async defer data-website-id="c8b9522c-f957-4bdc-a813-ead5f88f1c47" src="https://stats.ethohampton.com/stats.js"></script>
     <!-- TODO add favicon -->
 </head>
 
