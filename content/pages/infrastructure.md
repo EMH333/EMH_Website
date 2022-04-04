@@ -15,7 +15,7 @@ Below is a list of the infrastructure (both digital and physical) I use on a reg
 
 As a result of my current infrastructure setup, a critical failure on part of Cloudflare, Backblaze, Azure or Google would cripple my online presence. This is something I am actively working to defend against by slowly moving to infrastructure that I have direct control over. Cloud services are incredibly convenient which has slowed that transition.
 
-**List Last Updated: 14-Dec-2021**
+**List Last Updated: 4-Apr-2022**
 
 ## Hardware:
 
@@ -24,7 +24,8 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 - A basic 1080p Dell monitor
 - Logitech M570 Mouse
 - Yamaha P125 Piano Keyboard
-- Yubikey 5C NFC (for 2 factor authentication)
+- Yubikey 5C NFC (for two-factor authentication)
+- Garmin Forerunner Smart Watch
 - Various external hard drives
 
 ## Cloud Services:
@@ -46,13 +47,13 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 - Instagram - Never post, always view (and like)
 - Snapchat - This used to be (and maybe still is) the de facto messaging app for college students
 - Discord - Group projects, OSU CS server and a few relating to personal interests
-- Wikipedia - I watch several low traffic pages I care about, great for general research
-- DEV - dev.to is a good development/computer science community, very friendly
+- Wikipedia - I monitor several low traffic pages I care about, great for general research
 - Netflix - I watch more than I should, but less than I could
 - Nebula - Support digital creators instead of using YouTube
 - YouTube - I try to keep this to educational content, I like creators who focus on quality over quantity
 - Spotify - Used to swear I'd never use it, but I started and never looked back
 - Signal - Secure and private messages
+- Phoronix - Linux news and updates
 
 ## Local applications and tools:
 
@@ -80,7 +81,6 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 - HTTPS Everywhere
 - "New Tab - Moment"
 - Reddit Enhancement Suite
-- Tab Manager Plus for Firefox
 - uBlock Origin
 
 ### GNOME Shell Extensions:
