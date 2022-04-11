@@ -12,7 +12,7 @@ tags:
 - Web Toys
 
 ---
-{{< image src="headshot.jpg" title="Ethan Hampton" style="width:10em;" center="true" width="160">}}
+<!--{{< image src="headshot.jpg" title="Ethan Hampton" style="width:10em;" center="true" width="160">}}-->
 
 My name is Ethan Hampton and I am currently attending Oregon State University Honors College, majoring in Computer Science. I have the pleasure of working for the [Oregon State Open Source Lab](https://osuosl.org), supporting a wide variety of Open Source projects. Additionally, I work as a self-employed technology consultant.
 
