@@ -31,7 +31,7 @@ wpa_supplicant[744]: wlp59s0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid="eduroam" 
 wpa_supplicant[744]: BSSID 6c:c4:9f:9f:bb:b1 ignore list count incremented to 2, ignoring for 10 seconds
 ```
 
-A few searches revealed that this had come up as people were [updating to Fedora 36 as well](https://ask.fedoraproject.org/t/cannot-connect-to-wpa2-enterprise-university-wifi-eduroam-on-fedora-36/20288/5). Unfortunately this wasn't helpful because the OpenSSL config location and setup differs a bit between distributions.
+A few searches revealed that this had come up as people were [updating to Fedora 36 as well](https://ask.fedoraproject.org/t/cannot-connect-to-wpa2-enterprise-university-wifi-eduroam-on-fedora-36/20288/5). Unfortunately this wasn't helpful because the OpenSSL config location and setup differs a bit between distributions. Update (28-Apr-2022): [Fedora 36 lists this as a blocker for release](https://bugzilla.redhat.com/show_bug.cgi?id=2072070) (that linked thread goes into more detail about the origins of the problem).
 
 At last I found a [relevant mailing list message](https://www.mail-archive.com/desktop-packages%40lists.launchpad.net/msg680651.html) that solved the issue. The  easy way to solve this is to edit the file at `/etc/ssl/openssl.cnf` to support the legacy renegotiation
 
