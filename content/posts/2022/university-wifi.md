@@ -33,7 +33,7 @@ wpa_supplicant[744]: BSSID 6c:c4:9f:9f:bb:b1 ignore list count incremented to 2,
 
 A few searches revealed that this had come up as people were [updating to Fedora 36 as well](https://ask.fedoraproject.org/t/cannot-connect-to-wpa2-enterprise-university-wifi-eduroam-on-fedora-36/20288/5). Unfortunately this wasn't helpful because the OpenSSL config location and setup differs a bit between distributions. Update (28-Apr-2022): [Fedora 36 lists this as a blocker for release](https://bugzilla.redhat.com/show_bug.cgi?id=2072070) (that linked thread goes into more detail about the origins of the problem).
 
-At last I found a [relevant mailing list message](https://www.mail-archive.com/desktop-packages%40lists.launchpad.net/msg680651.html) that solved the issue. The  easy way to solve this is to edit the file at `/etc/ssl/openssl.cnf` to support the legacy renegotiation
+At last I found a [relevant message on the Ubuntu bug tracker](https://bugs.launchpad.net/ubuntu/+source/wpa/+bug/1958267/comments/22) that solved the issue. The  easy way to solve this is to edit the file at `/etc/ssl/openssl.cnf` to support the legacy renegotiation
 
 ## Solution for Ubuntu 22.04 (or Pop!_OS 22.04):
 
@@ -60,4 +60,4 @@ Then we need to restart the service so the changes take effect:
 
 Ideally the organization providing the network will update their system so this isn't necessary (the default was changed for a reason). Until then, this hack should work just fine.
 
-If you are hesitant to change the default config, you can follow the instructions in the [mailing list instead](https://www.mail-archive.com/desktop-packages%40lists.launchpad.net/msg680651.html) which create a copy of the config only for use when connecting to wifi.
+If you are hesitant to change the default config, you can follow the instructions in the [Ubuntu bug tracker instead](https://bugs.launchpad.net/ubuntu/+source/wpa/+bug/1958267/comments/22) which create a copy of the config only for use when connecting to wifi.
