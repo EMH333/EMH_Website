@@ -14,15 +14,15 @@ tags:
 ---
 <!--{{< image src="headshot.jpg" title="Ethan Hampton" style="width:10em;" center="true" width="160">}}-->
 
-My name is Ethan Hampton and I am currently attending Oregon State University Honors College, majoring in Computer Science. I have the pleasure of working for the [Oregon State Open Source Lab](https://osuosl.org), supporting a wide variety of Open Source projects. Additionally, I work as a self-employed technology consultant.
+My name is Ethan Hampton and I am currently in Chicago at Jump Trading LLC as a TechOps Intern (and that's all I can say about that). I attend Oregon State University Honors College, majoring in Computer Science. I have the pleasure of working for the [Oregon State Open Source Lab](https://osuosl.org) during the school year, supporting a wide variety of Open Source projects. Additionally, I work as a self-employed technology consultant.
 
-My technology preferences are very diverse, but I generally trend towards efficient solutions that scale well. For example, the range of languages I like to experiment with is JavaScript(Svelte, esbuild), Java, Kotlin, Go, Python, C++, C# and more. My main operating system is Pop!_OS (a Ubuntu derivative) and I love having the flexibility the Linux environment provides. I take great pride in finding the right solution for every situation and I am currently working with several individuals and businesses to help meet their ever-changing technology needs.
+My technology preferences are very diverse, but I generally trend towards efficient solutions that scale well. My main operating system is Pop!_OS (a Ubuntu derivative) and I love having the flexibility the Linux environment provides. You can see more of my technology choices on [my infrastructure page]({{< ref "pages/infrastructure.md" >}}). I take great pride in finding the right solution for every situation and I am currently working with several individuals and businesses to help meet their ever-changing technology needs.
 
 If you think I could help you or your business, please contact me at: etho@ethohampton.com
 
 {{< center "## A little about me!">}}
 
-If I am not working with technology, I enjoy reading, writing on my website, biking, running, tinkering, hanging with friends, playing piano and relaxing. I currently work with ASOSU (student government at Oregon State University) as a Representative in the House, appointed for the 2021-2022 term. I was a part of various FIRST FTC and FLL teams for over 9 years. In the 2018-2019 season with team 4711, we were selected to participate in the FIRST World Championships. My family also have websites, you can find my sister at [sophiahampton.com](https://sophiahampton.com) and my father at [procareering.com](http://www.procareering.com/). For a selection of my projects, you can check out on my [GitHub profile](https://github.com/EMH333).
+If I am not working with technology, I enjoy reading, writing on my website, biking, running, tinkering, hanging with friends, playing piano and relaxing. I currently work with ASOSU (student government at Oregon State University) as Vice-chair of the Judicial Council. I served as a Representative in the House for the 2021-2022 school year. For a selection of my projects, you can check out on my [projects page]({{< ref "pages/projects.md" >}}) or [GitHub profile](https://github.com/EMH333).
 
 If you have any questions about anything I do, please feel free to contact me at: etho@ethohampton.com
 
