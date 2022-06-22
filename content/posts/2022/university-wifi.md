@@ -8,6 +8,10 @@ date: 2022-04-26T12:57:00-07:00
 author: "Ethan Hampton"
 draft: false
 ---
+
+**Update (21-Jun-2022): A fix has been released by the Ubuntu team. This should no longer be needed.**
+
+
 I recently updated to Pop!_OS 20.04 and was unable to connect to the wifi networks at my university. The root cause was the upgrade to OpenSSL 3 (which was long overdue). The below information demonstrates how I was able to fix the issue.
 <!--more-->
 
