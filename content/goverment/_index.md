@@ -12,7 +12,7 @@ I previously served as a Representative in the House of Representatives for the 
 
 ## Office Hours
 
-I am out of Oregon for the remainder of 2022. Regardless, I would love to hear from you! Please feel free to email me via my OSU email at [hamptone@oregonstate.edu](mailto:hamptone@oregonstate.edu).
+I am out of Oregon for the remainder of 2022. Regardless, I would love to hear from you! Please feel free to email me via my OSU email at [asosu.jcvicechair@oregonstate.edu](mailto:asosu.jcvicechair@oregonstate.edu).
 
 
 ## News
