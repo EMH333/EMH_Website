@@ -1,28 +1,25 @@
 +++
 author = "Ethan Hampton"
 date = "2019-09-06T04:24:10+0000"
-description = "The resume of Ethan Hampton. Ethan is very passionate about computer science and enjoys working on distributed systems at scale"
+description = "The resume of Ethan Hampton. Ethan is very passionate about software engineering and infrastructure of any kind"
 draft = false
 slug = "ethan-hampton-resume"
-tags = ["Resume","Education","Work", "Computer Science", "Software Engineer"]
+tags = ["Resume","Education","Work", "Software Engineer", "TechOps", "DevOps", "Infrastructure"]
 title = "Résumé"
 +++
 
 # Ethan Hampton's Résumé
-#### EDUCATION
-Honors Bachelor of Computer Science, Oregon State University, Expected June 2023
-
-HS Diploma, McMinnville High School, McMinnville, OR, June 2019  
-with Engineering & Aerospace Sciences Academy and Computer
-Science Pathways  
-Honor Roll, 3.98 / 4.00 GPA, Top 5% of Senior class
-
 #### COMPUTER SCIENCE EXPERIENCE
-Student Systems Engineer, June 2020 -- March 2021 & September 2021 -- Present  
-Oregon State University Open Source Lab
+TechOps Intern, June 2022 -- Present  
+Jump Trading LLC.
+
 
 Founder, 2015 -- Present  
 Ethan M. Hampton Technology Consulting
+
+
+Student Systems Engineer, June 2020 -- March 2021 & September 2021 -- June 2022  
+Oregon State University Open Source Lab
 
 
 Software Engineering Intern, March 2021 -- September 2021  
@@ -41,7 +38,8 @@ Network Solutions Group Intern, June 2018 -- August 2018
 Intel Corporation
 
 #### HONORS AND COMMUNITY INVOLVEMENT
-Representative, September 2021 -- Present  
+Judicial Council Vice-chair, June 2022 -- Present  
+Representative, September 2021 -- May 2022  
 Associated Students of Oregon State University
 
 Secretary, June 2021 -- Present  
@@ -73,20 +71,20 @@ Oregon State University Honors College
 FIRST Tech Challenge (FTC) Dean's List Semi Finalist, 2017 - 2018
 
 
+Elected Student Leader, 2017 -- 2018  
+Magruder Music Art Drama Dance (MADD) Camp Council
+
+
 Mexico Mission Trip Leadership Team and Audio Visual Chair, 2015 -
 2019  
 Y.A.H.O.O.(Yamhill Alliance Helping Others Out)
 
-#### AUDIO AND VISUAL ENGINEERING EXPERIENCE
-Sound and Visual Production Engineer, 2016 -- 2020  
-Marchant Dance Corporation and McMinnville Cooperative Ministries
-
-Elected Student Leader, December 2017 -- June 2018  
-Magruder Music Art Drama Dance (MADD) Camp Council
+#### EDUCATION
+Honors Bachelor of Computer Science, Oregon State University, Expected June 2023
 
 ## Contact
 Email: [etho@ethohampton.com](mailto:etho@ethohampton.com)  
 LinkedIn: [https://www.linkedin.com/in/ethan-hampton/](https://www.linkedin.com/in/ethan-hampton/)
 
 
-Last Updated 22-Feb-2022
+Last Updated 18-Jul-2022
