@@ -32,7 +32,7 @@ jobs:
 
     - name: Deploy to server
       id: deploy
-      uses: EMH333/action-rsyncer@v1.2
+      uses: EMH333/action-rsyncer@v1.3
       env:
         DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
       with:
