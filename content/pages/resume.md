@@ -4,19 +4,17 @@ date = "2019-09-06T04:24:10+0000"
 description = "The resume of Ethan Hampton. Ethan is very passionate about software engineering and infrastructure of any kind"
 draft = false
 slug = "ethan-hampton-resume"
-tags = ["Resume","Education","Work", "Software Engineer", "TechOps", "DevOps", "Infrastructure"]
+tags = ["Resume","Education","Work", "Software Engineer", "SRE", "DevOps", "Infrastructure"]
 title = "Résumé"
 +++
 
 # Ethan Hampton's Résumé
 #### COMPUTER SCIENCE EXPERIENCE
-TechOps Intern, June 2022 -- Present  
-Jump Trading LLC.
-
-
 Founder, 2015 -- Present  
 Ethan M. Hampton Technology Consulting
 
+TechOps Intern, June 2022 -- August 2022  
+Jump Trading LLC.
 
 Student Systems Engineer, June 2020 -- March 2021 & September 2021 -- June 2022  
 Oregon State University Open Source Lab
@@ -87,4 +85,4 @@ Email: [etho@ethohampton.com](mailto:etho@ethohampton.com)
 LinkedIn: [https://www.linkedin.com/in/ethan-hampton/](https://www.linkedin.com/in/ethan-hampton/)
 
 
-Last Updated 18-Jul-2022
+Last Updated 03-Oct-2022
