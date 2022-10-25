@@ -2,11 +2,11 @@
     <p>{{.Site.Params.sideMenuInfo}}</p>
 
     {{if .Site.Params.sideMenuTAI}}
-        {{ partial "sidemenu/TAIform.html" . }}
+        {{ partialCached "sidemenu/TAIform.html" . }}
     {{ end }}
 
     {{if .Site.Params.sideMenuNeat}}
-        {{ partial "sidemenu/neatList.html" . }}
+        {{ partialCached "sidemenu/neatList.html" . }}
     {{ end }}
 
 

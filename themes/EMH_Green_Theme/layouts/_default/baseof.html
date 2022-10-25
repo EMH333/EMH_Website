@@ -54,13 +54,13 @@
                 <!-- The part of the page that begins to differ between templates -->
                 {{ end }}
             </div>
-            {{ partial "sidemenu/sidemenu.html" . }}
+            {{ partialCached "sidemenu/sidemenu.html" . }}
         </div>
         {{ block "footer" . }}
         <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
         {{ end }}
 
-        {{ partial "footer/footer.html" . }}
+        {{ partialCached "footer/footer.html" . }}
     </div>
 </body>
 
