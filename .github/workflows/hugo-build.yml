@@ -27,7 +27,7 @@ jobs:
       run: hugo -v --minify
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v3.1.0
+      uses: actions/upload-artifact@v3.1.1
       with:
         # Artifact name
         name: site
