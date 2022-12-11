@@ -15,7 +15,7 @@ Below is a list of the infrastructure (both digital and physical) I use on a reg
 
 As a result of my current infrastructure setup, a critical failure on part of Cloudflare, Backblaze, Azure or Google would cripple my online presence. This is something I am actively working to defend against by slowly moving to infrastructure that I have direct control over. Cloud services are incredibly convenient which has slowed that transition.
 
-**List Last Updated: 4-Apr-2022**
+**List Last Updated: 11-Dec-2022**
 
 ## Hardware:
 
@@ -43,9 +43,10 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 - Google News - Stay up to date on general news
 - New York Times - College provides free subscription, great for general news and reading
 - HackerNews - Good for tech related news and info
-- Twitter - I try to keep this tech related + some personal stuff
+- ~~Twitter - I try to keep this tech related + some personal stuff~~ Nov 2022 Update: Removing my Twitter presence and working to follow the folks I want on other platforms
 - Instagram - Never post, always view (and like)
 - Snapchat - This used to be (and maybe still is) the de facto messaging app for college students
+- WhatsApp - Primary messaging app while studying abroad, used to keep in touch with folks from that part of my life
 - Discord - Group projects, OSU CS server and a few relating to personal interests
 - Wikipedia - I monitor several low traffic pages I care about, great for general research
 - Netflix - I watch more than I should, but less than I could
@@ -75,13 +76,13 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 ### Browser Extensions:
 
 - Bitwarden
-- Decentraleyes
 - Facebook Container
 - Feedbro
 - HTTPS Everywhere
 - "New Tab - Moment"
 - Reddit Enhancement Suite
 - uBlock Origin
+- Firefox Translation
 
 ### GNOME Shell Extensions:
 
