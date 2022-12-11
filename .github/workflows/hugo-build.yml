@@ -14,8 +14,23 @@ jobs:
     - name: Checkout  
       uses: actions/checkout@v3
       with:
-        lfs: true
+        #lfs: true
         submodules: true
+
+    - name: Create LFS file list
+      run: git lfs ls-files -l | cut -d' ' -f1 | sort > .lfs-assets-id
+
+    - name: Restore LFS cache
+      uses: actions/cache@v3
+      id: lfs-cache
+      with:
+        path: .git/lfs
+        key: ${{ runner.os }}-lfs-v1-${{ hashFiles('.lfs-assets-id') }}
+        restore-keys: | # can restore old caches because they'll get updated with new files on pull
+            ${{ runner.os }}-lfs-v1
+
+    - name: Git LFS Pull
+      run: git lfs pull
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
