@@ -12,7 +12,7 @@ I previously served as a Representative in the House of Representatives for the 
 
 ## Office Hours
 
-I am out of Oregon for the remainder of 2022. Regardless, I would love to hear from you! Please feel free to email me via my OSU email at [asosu.jcvicechair@oregonstate.edu](mailto:asosu.jcvicechair@oregonstate.edu).
+I'm occasionally in the ASOSU office in the Student Experience Center although I don't really have any set schedule. Please let me know if you would like me to met in the office (or remotely) and I'm happy to do so. Please feel free to email me via my OSU email at [asosu.jcvicechair@oregonstate.edu](mailto:asosu.jcvicechair@oregonstate.edu).
 
 
 ## News
