@@ -10,14 +10,16 @@ title = "Résumé"
 
 # Ethan Hampton's Résumé
 #### COMPUTER SCIENCE EXPERIENCE
+Student Systems Engineer, June 2020 -- Present  
+Oregon State University Open Source Lab
+
+
 Founder, 2015 -- Present  
 Ethan M. Hampton Technology Consulting
 
+
 TechOps Intern, June 2022 -- August 2022  
 Jump Trading LLC.
-
-Student Systems Engineer, June 2020 -- March 2021 & September 2021 -- June 2022  
-Oregon State University Open Source Lab
 
 
 Software Engineering Intern, March 2021 -- September 2021  
@@ -40,13 +42,7 @@ Judicial Council Vice-chair, June 2022 -- Present
 Representative, September 2021 -- May 2022  
 Associated Students of Oregon State University
 
-Secretary, June 2021 -- Present  
-Oregon State University Linux User Group
-
-Member, September 2019 – Present  
-Engineering Leadership Academy, Grand Challenges Scholars Program
-
-Community Engagement-Volunteer opportunities, 2015 - Present
+Community Engagement-Volunteer opportunities, 2015 -- Present
 -   Saturday Morning Community Breakfast
 -   Habitat for Humanity Restore
 -   McMinnville High School Graduation
@@ -54,28 +50,15 @@ Community Engagement-Volunteer opportunities, 2015 - Present
     Program Food Bank)
 -   FIRST Lego League Referee
 
-Organizer, 2011 - Present  
+Organizer, 2011 -- Present  
 Ham Fam Harvest Fun Run and Walk
 -   Host running event to raise money and food for Yamhill County
     Assistance Program Food Bank
 -   Yearly attendance of 200+ runners
 -   $3,000+ and two barrels of food raised last year
 
-
-Peer Mentor, September 2021 -- December 2021  
-Oregon State University Honors College
-
-
-FIRST Tech Challenge (FTC) Dean's List Semi Finalist, 2017 - 2018
-
-
-Elected Student Leader, 2017 -- 2018  
-Magruder Music Art Drama Dance (MADD) Camp Council
-
-
-Mexico Mission Trip Leadership Team and Audio Visual Chair, 2015 -
-2019  
-Y.A.H.O.O.(Yamhill Alliance Helping Others Out)
+Secretary, June 2021 -- June 2022  
+Oregon State University Linux User Group
 
 #### EDUCATION
 Honors Bachelor of Computer Science, Oregon State University, Expected June 2023
@@ -85,4 +68,4 @@ Email: [etho@ethohampton.com](mailto:etho@ethohampton.com)
 LinkedIn: [https://www.linkedin.com/in/ethan-hampton/](https://www.linkedin.com/in/ethan-hampton/)
 
 
-Last Updated 03-Oct-2022
+Last Updated 24-Mar-2023
