@@ -32,29 +32,38 @@ enableGitInfo=true #use git for modification date data
     url = "/"
     weight = 1
   [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    title = "Projects"
+    url = "#"
+    weight = 2
+    [[menu.main]]
+      parent = "projects"
+      identifier = "infrastructure"
+      name = "Infrastructure"
+      title = "Infrastructure"
+      url = "/pages/infrastructure/"
+      weight = 1
+    [[menu.main]]
+      parent = "projects"
+      identifier = "asosu"
+      name = "ASOSU"
+      title = "ASOSU"
+      url = "/goverment/"
+      weight = 2
+    [[menu.main]]
+      parent = "projects"
+      identifier = "other_projects"
+      name = "Other Projects"
+      title = "Other Projects"
+      url = "/pages/projects/"
+      weight = 3
+  [[menu.main]]
     identifier = "resume"
     name = "Résumé"
     title = "Résumé"
     url = "/pages/ethan-hampton-resume/"
     weight = 3
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    title = "Projects"
-    url = "/pages/projects/"
-    weight = 2
-  [[menu.main]]
-    identifier = "infrastructure"
-    name = "Infrastructure"
-    title = "Infrastructure"
-    url = "/pages/infrastructure/"
-    weight = 4
-  [[menu.main]]
-    identifier = "asosu"
-    name = "ASOSU"
-    title = "ASOSU"
-    url = "/goverment/"
-    weight = 5
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
