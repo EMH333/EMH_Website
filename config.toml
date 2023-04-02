@@ -46,18 +46,25 @@ enableGitInfo=true #use git for modification date data
       weight = 1
     [[menu.main]]
       parent = "projects"
+      identifier = "shorts"
+      name = "Shorts"
+      title = "Shorts"
+      url = "https://neat.ethohampton.com/shorts"
+      weight = 2
+    [[menu.main]]
+      parent = "projects"
       identifier = "asosu"
       name = "ASOSU"
       title = "ASOSU"
       url = "/goverment/"
-      weight = 2
+      weight = 3
     [[menu.main]]
       parent = "projects"
       identifier = "other_projects"
       name = "Other Projects"
       title = "Other Projects"
       url = "/pages/projects/"
-      weight = 3
+      weight = 4
   [[menu.main]]
     identifier = "resume"
     name = "Résumé"
