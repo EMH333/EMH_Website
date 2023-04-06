@@ -6,14 +6,14 @@ tags:
 - Technology
 - Projects
 - Open Source
-- Oregon State University Honors College
+- Oregon State University
 - Infrastructure
 - Blog
 
 ---
 <!--{{< image src="headshot.jpg" title="Ethan Hampton" style="width:10em;" center="true" width="160">}}-->
 
-My name is Ethan Hampton and I am currently studying at Oregon State University. I'm a student of the Honors College, majoring in Computer Science. I have the pleasure of working for the [Oregon State Open Source Lab](https://osuosl.org) during the school year, supporting a wide variety of Open Source projects. I'll be heading to Jump Trading LLC as a TechOps Engineer after I graduate. Additionally, I work as a self-employed technology consultant.
+My name is Ethan Hampton and I am currently majoring in Computer Science at Oregon State University. I have the pleasure of working for the [Oregon State Open Source Lab](https://osuosl.org) during the school year, supporting a wide variety of Open Source projects. I'll be heading to Jump Trading LLC as a TechOps Engineer after I graduate. Additionally, I work as a self-employed technology consultant.
 
 My technology preferences are very diverse, but I generally trend towards efficient solutions that scale well. My main operating system is Pop!_OS (a Ubuntu derivative) and I love having the flexibility the Linux environment provides. You can see more of my technology choices on [my infrastructure page]({{< ref "pages/infrastructure.md" >}}). I take great pride in finding the right solution for every situation and I am currently working with several individuals and businesses to help meet their ever-changing technology needs.
 
