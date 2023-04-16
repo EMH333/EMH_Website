@@ -50,7 +50,7 @@ jobs:
 
     - name: Deploy to server
       id: deploy
-      uses: EMH333/action-rsyncer@v1.3
+      uses: EMH333/action-rsyncer@v1.4
       env:
         DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
       with:
