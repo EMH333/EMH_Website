@@ -15,12 +15,12 @@ Below is a list of the infrastructure (both digital and physical) I use on a reg
 
 As a result of my current infrastructure setup, a critical failure on part of Cloudflare, Backblaze, Azure or Google would cripple my online presence. This is something I am actively working to defend against by slowly moving to infrastructure that I have direct control over. Cloud services are incredibly convenient which has slowed that transition.
 
-**List Last Updated: 11-Dec-2022**
+**List Last Updated: 16-Apr-2023**
 
 ## Hardware:
 
 - Dell XPS 7590 (Intel i7-9750H, 16GB RAM, 4k OLED display) running Pop!_OS 21.10
-- OnePlus 7 Pro 256GB running Android 11
+- Samsung Galaxy S23 Ultra running Android 13
 - A basic 1080p Dell monitor
 - Logitech M570 Mouse
 - Yamaha P125 Piano Keyboard
@@ -40,9 +40,10 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 - Bitwarden - The best password manager. I use the premium version
 - TickTick - A fantastic task manger and todo list service. I use the premium version
 - GitHub - Git repository management for most all my projects
-- Google News - Stay up to date on general news
+- NPR - National Public Radio is a awesome neutral source for news
 - New York Times - College provides free subscription, great for general news and reading
 - HackerNews - Good for tech related news and info
+- Google News - Stay up to date on general news
 - ~~Twitter - I try to keep this tech related + some personal stuff~~ Nov 2022 Update: Removing my Twitter presence and working to follow the folks I want on other platforms
 - Instagram - Never post, always view (and like)
 - Snapchat - This used to be (and maybe still is) the de facto messaging app for college students
@@ -62,12 +63,15 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 - Jetbrains IDE suite - Free for students and provides significant assistance when I want it
 - VS Code - For JavaScript, Golang and other related development
 - Ghostwriter - A simple markdown editor, which I use quite frequently (I'm using it to write this)
+- Obsidian - A more featured markdown editor, I manage a lot of private notes and writing in my Obsidian vault
 - Terminator - Easy to configure and use terminal emulator
-- Audacity - Simply audio projects
+- Audacity - Simple audio projects
 - Blender - Very flexible 3D rendering, 2D rendering, video editing, special effects application
 - GIMP - Image editing
 - Inkscape - Vector image editing
 - SimpleScreenRecorder - Easy to use screen recorder software
+- Kdenlive - Video editing
+- DigiKam - Photo library management 
 - Thunderbird - Local email browser
 - TexStudio - My preferred LaTeX editor
 - Wireshark - Packet capturing and other useful analysis
@@ -106,7 +110,7 @@ I'm hesitant to list this, as it is likely to change frequently but I'll give it
 
 - Hosted on a virtual machine (could be containerized), served via Nginx
 - Cloudflare as CDN/inline protection
-- Golang/Kotlin back-end
+- Golang back-end
 - Currently don't have any database preference
 - I recently discovered Redis, oh boy, how wonderful
 - `esbuild` as front-end bundling tool
