@@ -9,7 +9,10 @@ title = "Résumé"
 +++
 
 # Ethan Hampton's Résumé
-#### COMPUTER SCIENCE EXPERIENCE
+### EDUCATION
+Bachelor of Computer Science, Oregon State University, June 2023
+
+### COMPUTER SCIENCE EXPERIENCE
 Student Systems Engineer, June 2020 -- Present  
 Oregon State University Open Source Lab
 
@@ -37,11 +40,7 @@ McMinnville High School Robotics Team
 Network Solutions Group Intern, June 2018 -- August 2018  
 Intel Corporation
 
-#### HONORS AND COMMUNITY INVOLVEMENT
-Judicial Council Vice-chair, June 2022 -- Present  
-Representative, September 2021 -- May 2022  
-Associated Students of Oregon State University
-
+### HONORS AND COMMUNITY INVOLVEMENT
 Community Engagement-Volunteer opportunities, 2015 -- Present
 -   Saturday Morning Community Breakfast
 -   Habitat for Humanity Restore
@@ -57,15 +56,16 @@ Ham Fam Harvest Fun Run and Walk
 -   Yearly attendance of 200+ runners
 -   $3,000+ and two barrels of food raised last year
 
+Judicial Council Vice-chair, June 2022 -- May 2023  
+Representative, September 2021 -- May 2022  
+Associated Students of Oregon State University
+
 Secretary, June 2021 -- June 2022  
 Oregon State University Linux User Group
-
-#### EDUCATION
-Honors Bachelor of Computer Science, Oregon State University, Expected June 2023
 
 ## Contact
 Email: [etho@ethohampton.com](mailto:etho@ethohampton.com)  
 LinkedIn: [https://www.linkedin.com/in/ethan-hampton/](https://www.linkedin.com/in/ethan-hampton/)
 
 
-Last Updated 24-Mar-2023
+Last Updated 13-June-2023
