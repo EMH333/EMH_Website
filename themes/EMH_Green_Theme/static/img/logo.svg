@@ -1,8 +1,6 @@
- <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="700.000000pt" height="700.000000pt" viewBox="0 0 700.000000 700.000000" preserveAspectRatio="xMidYMid meet">
-<metadata>
-Ethan Hampton Logo
-</metadata>
-<g transform="translate(0.000000,700.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="700pt" height="700pt" viewBox="0 0 700 700" preserveAspectRatio="xMidYMid meet">
+<metadata>Ethan Hampton Logo</metadata>
+<g transform="translate(0,700) scale(0.1,-0.1)" fill="#000000" stroke="none">
 <path d="M968 6964 c-233 -115 -286 -397 -109 -574 64 -64 139 -97 246 -109
 52 -6 104 -19 129 -32 60 -30 210 -147 339 -262 305 -272 1277 -1207 1277
 -1227 0 -10 -40 -56 -88 -102 -49 -45 -190 -179 -313 -297 -123 -118 -370
