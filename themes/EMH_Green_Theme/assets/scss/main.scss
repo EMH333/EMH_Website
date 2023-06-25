@@ -1,4 +1,4 @@
-@import "varibles.scss";
+@import "variables.scss";
 @import "normalize.scss";
 @import "menu.scss";
 @import "list.scss";
@@ -43,10 +43,6 @@ hr {
 
 .body-container {
     margin: 2em;
-    display: grid;
-    column-gap: 2em;
-    grid-template-columns: auto $column-width;
-
     h1 {
         color: darken($color: $text-color, $amount: 10);
         text-align: center;
@@ -63,7 +59,6 @@ hr {
 }
 
 .content {
-    grid-column: 1;
     max-width: $content-width;
     line-height: 1.2;
     img {
@@ -86,8 +81,21 @@ hr {
 } 
 
 .side-menu {
-    grid-column: 2;
-    max-width: $column-width;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .recent-posts {
+        width: 300px;
+        flex-grow: 1;
+    }
+
+    .neat-list {
+        width: 300px;
+        flex-grow: 0.5;
+    }
 
     h3 span {
         color: $title-color;
@@ -124,20 +132,6 @@ a {
 }
 
 @media only screen and (max-width: $container-width) {
-    .side-menu {
-        grid-row: 2;
-        grid-column: 1;
-    }
-
-    .content {
-        grid-row: 1;
-        grid-column: 1;
-    }
-
-    .body-container {
-        grid-template-columns: auto;
-    }
-
     .container {
         margin: 1em;
     }

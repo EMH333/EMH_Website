@@ -5,5 +5,5 @@ $title-color: black !default;
 $button-background: darken($background-color, 20%);
 
 $column-width: 400px;
-$content-width: ($column-width * 2) - 45px; // unsure about the 45px
-$container-width: ($column-width * 3) + 50px; // 50 is 24 (for middle margin) + 24 (for edge)
+$content-width: 1000px; //($column-width * 2) - 45px; // unsure about the 45px
+$container-width: 1000px; //($column-width * 3) + 50px; // 50 is 24 (for middle margin) + 24 (for edge)

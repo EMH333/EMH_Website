@@ -48,14 +48,12 @@
     <div class="container">
         {{ partial "header/header.html" . }}
         <!-- Code that all your templates share, like a header -->
-        <div class="body-container">
-            <div class="content">
-                {{ block "main" . }}
-                <!-- The part of the page that begins to differ between templates -->
-                {{ end }}
-            </div>
-            {{ partialCached "sidemenu/sidemenu.html" . }}
+        <div class="body-container content">
+            {{ block "main" . }}
+            <!-- The part of the page that begins to differ between templates -->
+            {{ end }}
         </div>
+        {{ partialCached "sidemenu/sidemenu.html" . }}
         {{ block "footer" . }}
         <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
         {{ end }}
