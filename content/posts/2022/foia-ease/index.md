@@ -8,6 +8,8 @@ date: 2022-02-26T21:44:35-08:00
 author: "Ethan Hampton"
 draft: false
 ---
+**NOTE: It has come to my attention that this isn't technically the process for FOIA requests, but rather how OSU/Oregon handles public records requests. This sort of approach is certainly worth a shot, but may require more work for different organizations/states.**
+
 This all started when a peer on the unofficial Oregon State University Computer Science Discord server requested grades from every single class offered at OSU from 2019-2021. I created [osuclassdata.ethohampton.com](https://osuclassdata.ethohampton.com) and then once the new term rolled around, I figured that it might be a good idea to get the latest data.
 
 This is a brief overview of how I went about my first FOIA (Freedom Of Information Act) request. Hopefully this will be a helpful reference, and show just how easy it is to complete.
@@ -26,7 +28,7 @@ My request went a little something like this:
 >
 >This is my first FOIA request, and I appreciate the value of your time, please let me know if I'm missing anything or could phrase something better.
 >
->Many thanks,
+>Many thanks,  
 >Ethan Hampton
 
 Probably too conversational in tone, but it gets the point across. The most important part of this request was "...the grade distributions by student count and letter grade for every class at OSU's Corvallis campus, for Fall 2021", which specified exactly the data I was looking for.
