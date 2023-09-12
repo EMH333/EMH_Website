@@ -4,7 +4,7 @@ date = "2021-02-06T16:24:10+0000"
 description = "The infrastructure I use on a regular basis"
 draft = false
 slug = "infrastructure"
-tags = ["Infrastructure", "Work", "Computer Science", "Software Engineer"]
+tags = ["Infrastructure", "Work", "Computer Science", "Software Engineer", "DevOps"]
 title = "Infrastructure"
 +++
 
@@ -15,13 +15,12 @@ Below is a list of the infrastructure (both digital and physical) I use on a reg
 
 As a result of my current infrastructure setup, a critical failure on part of Cloudflare, Backblaze, Azure or Google would cripple my online presence. This is something I am actively working to defend against by slowly moving to infrastructure that I have direct control over. Cloud services are incredibly convenient which has slowed that transition.
 
-**List Last Updated: 16-Apr-2023**
+**List Last Updated: 11-September-2023**
 
 ## Hardware:
 
 - Dell XPS 7590 (Intel i7-9750H, 16GB RAM, 4k OLED display) running Pop!_OS 21.10
 - Samsung Galaxy S23 Ultra running Android 13
-- A basic 1080p Dell monitor
 - Logitech M570 Mouse
 - Yamaha P125 Piano Keyboard
 - Yubikey 5C NFC (for two-factor authentication)
@@ -44,7 +43,6 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 - New York Times - College provides free subscription, great for general news and reading
 - HackerNews - Good for tech related news and info
 - Google News - Stay up to date on general news
-- ~~Twitter - I try to keep this tech related + some personal stuff~~ Nov 2022 Update: Removing my Twitter presence and working to follow the folks I want on other platforms
 - Instagram - Never post, always view (and like)
 - Snapchat - This used to be (and maybe still is) the de facto messaging app for college students
 - WhatsApp - Primary messaging app while studying abroad, used to keep in touch with folks from that part of my life
@@ -92,7 +90,6 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 
 - corecoding/Vitals
 - Removable Drive Menu
-- Sound input & output device chooser
 
 ## CLI Programs/Tools:
 
@@ -109,9 +106,8 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 I'm hesitant to list this, as it is likely to change frequently but I'll give it a shot
 
 - Hosted on a virtual machine (could be containerized), served via Nginx
-- Cloudflare as CDN/inline protection
 - Golang back-end
 - Currently don't have any database preference
-- I recently discovered Redis, oh boy, how wonderful
+- Redis for caching
 - `esbuild` as front-end bundling tool
 - Svelte for front-end development

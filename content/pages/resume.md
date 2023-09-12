@@ -13,7 +13,11 @@ title = "Résumé"
 Bachelor of Computer Science, Oregon State University, June 2023
 
 ### COMPUTER SCIENCE EXPERIENCE
-Student Systems Engineer, June 2020 -- Present  
+TechOps Engineer, September 2023 -- Present  
+Jump Trading LLC.
+
+
+Student Systems Engineer, June 2020 -- June 2023  
 Oregon State University Open Source Lab
 
 
@@ -68,4 +72,4 @@ Email: [etho@ethohampton.com](mailto:etho@ethohampton.com)
 LinkedIn: [https://www.linkedin.com/in/ethan-hampton/](https://www.linkedin.com/in/ethan-hampton/)
 
 
-Last Updated 13-June-2023
+Last Updated 11-September-2023

@@ -7,17 +7,18 @@ tags:
 - Projects
 - Open Source
 - Oregon State University
+- Jump Trading
 - Infrastructure
 - Blog
 
 ---
 <!--{{< image src="headshot.jpg" title="Ethan Hampton" style="width:10em;" center="true" width="160">}}-->
 
-I'm Ethan Hampton, a Computer Science major at Oregon State University. Currently, I have the privilege of working for the [Oregon State Open Source Lab](https://osuosl.org), where I support a wide range of Open Source projects. In September, I'll be joining Jump Trading in Chicago as a TechOps Engineer. Alongside my professional engagements, I also work as a self-employed technology consultant.
+I'm Ethan Hampton, a TechOps Engineer at Jump Trading in Chicago. As a transplant from Oregon, I'm still learning the ropes of the city of Chicago! I graduated from Oregon State University in the Spring of 2023 with a Bachelors of Computer Science. While at OSU, I had the privilege of working for the [Oregon State Open Source Lab](https://osuosl.org), where I supported a wide range of Open Source projects. <!--Alongside my professional engagements, I also work as a self-employed technology consultant.-->
 
-With a diverse range of technology preferences, I strive for efficient solutions that scale effectively. My primary operating system is currently Pop!_OS, a Ubuntu derivative. I am constantly impressed by the flexibility and power of the Linux ecosystem. To explore more of my technology choices, visit [my infrastructure page]({{< ref "pages/infrastructure.md" >}}). Finding the right technology solution for each situation is my passion. I'm currently collaborating with individuals and businesses to address their ever-changing technology needs. Whether clients need assistance with development, system administration, or technology strategy, I provide tailored solutions to help them succeed.
+With a diverse range of technology preferences, I strive for efficient solutions that scale effectively. My primary operating system is currently Pop!_OS, a Ubuntu derivative. I am constantly impressed by the flexibility and power of the Linux ecosystem. To explore more of my technology choices, visit [my infrastructure page]({{< ref "pages/infrastructure.md" >}}). Finding the right technology solution for each situation is my passion. 
 
-If you think I could help you or your business, please contact me at: etho@ethohampton.com
+<!--I'm currently collaborating with individuals and businesses to address their ever-changing technology needs. Whether clients need assistance with development, system administration, or technology strategy, I provide tailored solutions to help them succeed. If you think I could help you or your business, please contact me at: etho@ethohampton.com-->
 
 {{< center "## A little about me!">}}
 
