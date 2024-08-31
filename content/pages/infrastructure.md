@@ -13,13 +13,14 @@ title = "Infrastructure"
 
 Below is a list of the infrastructure (both digital and physical) I use on a regular basis.
 
-As a result of my current infrastructure setup, a critical failure on part of Cloudflare, Backblaze, Azure or Google would cripple my online presence. This is something I am actively working to defend against by slowly moving to infrastructure that I have direct control over. Cloud services are incredibly convenient which has slowed that transition.
+As a result of my current infrastructure setup, a critical failure on part of Cloudflare, Azure or Google would cripple my online presence. This is something I am actively working to defend against by slowly moving to infrastructure that I have direct control over. Cloud services are incredibly convenient which has slowed that transition.
 
-**List Last Updated: 11-September-2023**
+**List Last Updated: 31-Aug-2024**
 
 ## Hardware:
 
-- Dell XPS 7590 (Intel i7-9750H, 16GB RAM, 4k OLED display) running Pop!_OS 21.10
+- DIY Ryzen 9 7900X, 32GB RAM, Radeon RX 7600, Alienware curved monitor, running Pop!_OS 22.04 LTS
+- Dell XPS 7590 (Intel i7-9750H, 16GB RAM, 4k OLED display) running Pop!_OS 22.04 LTS
 - Samsung Galaxy S23 Ultra running Android 13
 - Logitech M570 Mouse
 - Yamaha P125 Piano Keyboard
@@ -40,13 +41,12 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 - TickTick - A fantastic task manger and todo list service. I use the premium version
 - GitHub - Git repository management for most all my projects
 - NPR - National Public Radio is a awesome neutral source for news
-- New York Times - College provides free subscription, great for general news and reading
+- New York Times - Great for general news and reading
 - HackerNews - Good for tech related news and info
-- Google News - Stay up to date on general news
 - Instagram - Never post, always view (and like)
-- Snapchat - This used to be (and maybe still is) the de facto messaging app for college students
+- Snapchat - Used only for a single group chat and staying up to date with folks who don't post to Instagram
 - WhatsApp - Primary messaging app while studying abroad, used to keep in touch with folks from that part of my life
-- Discord - Group projects, OSU CS server and a few relating to personal interests
+- Discord - Lurking on the OSU CS server and a few relating to personal interests
 - Wikipedia - I monitor several low traffic pages I care about, great for general research
 - Netflix - I watch more than I should, but less than I could
 - Nebula - Support digital creators instead of using YouTube
