@@ -12,7 +12,7 @@ title = "Résumé"
 ### EDUCATION
 Bachelor of Computer Science, Oregon State University, June 2023
 
-### COMPUTER SCIENCE EXPERIENCE
+### EXPERIENCE
 TechOps Engineer, September 2023 -- Present  
 Jump Trading LLC.
 
@@ -53,7 +53,7 @@ Community Engagement-Volunteer opportunities, 2015 -- Present
     Program Food Bank)
 -   FIRST Lego League Referee
 
-Organizer, 2011 -- Present  
+Organizer, 2011 -- 2024  
 Ham Fam Harvest Fun Run and Walk
 -   Host running event to raise money and food for Yamhill County
     Assistance Program Food Bank
