@@ -39,7 +39,7 @@ jobs:
         extended: true
 
     - name: Run the hugo build
-      run: hugo -v --minify
+      run: hugo --logLevel debug --minify
 
     - name: Upload artifact
       uses: actions/upload-artifact@v3.1.2
