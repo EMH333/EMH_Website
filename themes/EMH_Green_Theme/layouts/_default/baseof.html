@@ -36,7 +36,7 @@
     <!-- Code for head from page -->
 
     {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" false "includePaths" "")}}
-    {{ $style := resources.Get "/scss/main.scss" | resources.ToCSS $options | resources.Minify | resources.Fingerprint }}
+    {{ $style := resources.Get "/scss/main.scss" | css.Sass $options | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
 
     <!--A statistics script that stays out of the way and is self-hosted-->

@@ -10,6 +10,7 @@ draft: false
 ---
 
 These are a few photos I took at William L. Finley Nation Wildlife Refuge on the 16th of October 2021. It was a great opportunity to explore nature, though I wish I had gone a little earlier in the day because there was a beautiful fog lifting just as I was driving towards it.
+<!--more-->
 
 {{< image src="DSC_8569_v1.jpg" title="Leaves on a raised wooden trail" style="width:35em;" click="true">}}
 

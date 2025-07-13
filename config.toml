@@ -8,21 +8,18 @@ pygmentsCodefencesGuessSyntax=true
 pygmentsCodeFences=true
 pygmentsStyle="tango"
 
-Paginate = 10 #How many posts per page
-
 enableGitInfo=true #use git for modification date data 
+
+[pagination]
+  pagerSize = 10 #How many posts per page
 
 [params]
   description = "Ethan Hampton's Website"
   author = "Ethan Hampton"
-  sideMenuInfo = "Ethan Hampton is a Oregon State University student studying Computer Science. Ethan loves simple but effective ideas that work at a large scale to help make the world a better place"
   sideMenuTAI = true
   sideMenuNeat = true
   ignoredMenuTypes = ["images","pages","posts","goverment"]
 
-[author]
-  name = "Ethan Hampton"
-  url = "https://www.ethohampton.com"
 
 [menu]
   [[menu.main]]
