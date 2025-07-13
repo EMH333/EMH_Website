@@ -14,7 +14,7 @@ tags:
 ---
 <!--{{< image src="headshot.jpg" title="Ethan Hampton" style="width:10em;" center="true" width="160">}}-->
 
-I'm Ethan Hampton, a TechOps Engineer at Jump Trading in Chicago. As a transplant from Oregon, I'm still learning the ropes of the city of Chicago! I graduated from Oregon State University in the Spring of 2023 with a Bachelors of Computer Science. While at OSU, I had the privilege of working for the [Oregon State Open Source Lab](https://osuosl.org), where I supported a wide range of Open Source projects. <!--Alongside my professional engagements, I also work as a self-employed technology consultant.-->
+I'm Ethan Hampton, a TechOps Engineer at Jump Trading in Chicago. As a transplant from Oregon, I'm still learning the ropes of the city of Chicago! I graduated from Oregon State University in 2023 with a Bachelor of Science in Computer Science. While at OSU, I had the privilege of working for the [Oregon State Open Source Lab](https://osuosl.org), where I supported a wide range of Open Source projects. <!--Alongside my professional engagements, I also work as a self-employed technology consultant.-->
 
 With a diverse range of technology preferences, I strive for efficient solutions that scale effectively. My primary operating system is currently Pop!_OS, a Ubuntu derivative. I am constantly impressed by the flexibility and power of the Linux ecosystem. To explore more of my technology choices, visit [my infrastructure page]({{< ref "pages/infrastructure.md" >}}). Finding the right technology solution for each situation is my passion. 
 
@@ -22,7 +22,7 @@ With a diverse range of technology preferences, I strive for efficient solutions
 
 {{< center "## A little about me!">}}
 
-When I am not working with technology, I find joy in the other meaningful activities in my life. I can often be found curled up with a good book, pondering some of the world's many problems, or exploring various mediums of writing. Outdoors, I like to hike, camp, bike and walk to take in the serene beauty nature has to offer. I also enjoy musicals, tinkering with electronics, spending quality time with friends, live music and playing piano. Studying abroad in Denmark in Fall 2022 accelerated my interest in urban infrastructure and how we craft our surroundings to provide culturally significant experiences. For a selection of my projects, you can check out on my [projects page]({{< ref "pages/projects.md" >}}) or [GitHub profile](https://github.com/EMH333).
+When I am not working with technology, I find joy in the other meaningful activities in my life. I can often be found curled up with a good book, pondering some of the world's many problems, or exploring various mediums of writing. Outdoors, I like to hike, camp, bike and walk to take in the serene beauty nature has to offer. I also enjoy musicals, tinkering with electronics, spending quality time with friends, live music and playing piano. Studying abroad in Denmark in Fall 2022 accelerated my interest in urban infrastructure and how we craft our surroundings to provide culturally significant experiences. I contribute casually to OpenStreetMap and I am actively looking for additional ways to use my skills to help the world suck less. For a selection of my projects, you can check out on my [projects page]({{< ref "pages/projects.md" >}}) or [GitHub profile](https://github.com/EMH333).
 
 If you have any questions about anything I do, or simply want to chat, please feel free to contact me at: etho@ethohampton.com
 
