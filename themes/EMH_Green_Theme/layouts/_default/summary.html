@@ -14,7 +14,7 @@
                 </div>
                 {{ end }}
             </div>
-            {{safeHTML .Summary }}
+            {{safeHTML .Summary | plainify}}
         </div>
         {{ if .Truncated }}
         <!-- This <div> includes a read more link, but only if the summary is truncated... -->

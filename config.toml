@@ -26,7 +26,7 @@ enableGitInfo=true #use git for modification date data
     identifier = "home"
     name = "Home"
     title = "Home"
-    url = "/"
+    pageRef = "/"
     weight = 1
   [[menu.main]]
     identifier = "projects"
@@ -39,7 +39,7 @@ enableGitInfo=true #use git for modification date data
       identifier = "infrastructure"
       name = "Infrastructure"
       title = "Infrastructure"
-      url = "/pages/infrastructure/"
+      pageRef = "/pages/infrastructure"
       weight = 1
     [[menu.main]]
       parent = "projects"
@@ -53,19 +53,19 @@ enableGitInfo=true #use git for modification date data
       identifier = "other_projects"
       name = "Other Projects"
       title = "Other Projects"
-      url = "/pages/projects/"
+      pageRef = "/pages/projects"
       weight = 3
   [[menu.main]]
     identifier = "resume"
     name = "Résumé"
     title = "Résumé"
-    url = "/pages/ethan-hampton-resume/"
+    pageRef = "/pages/resume"
     weight = 3
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
     title = "Blog"
-    url = "/posts/"
+    pageRef = "/posts"
     weight = 6
 #  [[menu.main]]
 #    identifier = "projects"
