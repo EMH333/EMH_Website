@@ -9,9 +9,6 @@ title = "Résumé"
 +++
 
 # Ethan Hampton's Résumé
-### EDUCATION
-Bachelor of Computer Science, Oregon State University, June 2023
-
 ### EXPERIENCE
 TechOps Engineer, September 2023 -- Present  
 Jump Trading LLC.
@@ -44,6 +41,9 @@ McMinnville High School Robotics Team
 Network Solutions Group Intern, June 2018 -- August 2018  
 Intel Corporation
 
+### EDUCATION
+Bachelor of Computer Science, Oregon State University, June 2023
+
 ### HONORS AND COMMUNITY INVOLVEMENT
 Community Engagement-Volunteer opportunities, 2015 -- Present
 -   Saturday Morning Community Breakfast
@@ -72,4 +72,4 @@ Email: [etho@ethohampton.com](mailto:etho@ethohampton.com)
 LinkedIn: [https://www.linkedin.com/in/ethan-hampton/](https://www.linkedin.com/in/ethan-hampton/)
 
 
-Last Updated 11-September-2023
+Last Updated 13-July-2025

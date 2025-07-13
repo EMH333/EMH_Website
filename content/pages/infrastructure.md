@@ -15,13 +15,13 @@ Below is a list of the infrastructure (both digital and physical) I use on a reg
 
 As a result of my current infrastructure setup, a critical failure on part of Cloudflare, Azure or Google would cripple my online presence. This is something I am actively working to defend against by slowly moving to infrastructure that I have direct control over. Cloud services are incredibly convenient which has slowed that transition.
 
-**List Last Updated: 31-Aug-2024**
+**List Last Updated: 13-Jul-2025**
 
 ## Hardware:
 
 - DIY Ryzen 9 7900X, 32GB RAM, Radeon RX 7600, Alienware curved monitor, running Pop!_OS 22.04 LTS
 - Dell XPS 7590 (Intel i7-9750H, 16GB RAM, 4k OLED display) running Pop!_OS 22.04 LTS
-- Samsung Galaxy S23 Ultra running Android 13
+- Samsung Galaxy S23 Ultra (Android)
 - Logitech M570 Mouse
 - Yamaha P125 Piano Keyboard
 - Yubikey 5C NFC (for two-factor authentication)
@@ -44,12 +44,12 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 - New York Times - Great for general news and reading
 - HackerNews - Good for tech related news and info
 - Instagram - Never post, always view (and like)
-- Snapchat - Used only for a single group chat and staying up to date with folks who don't post to Instagram
 - WhatsApp - Primary messaging app while studying abroad, used to keep in touch with folks from that part of my life
+- OpenStreetMaps - I contribute regularly and use CoMaps as my primary map application on mobile
 - Discord - Lurking on the OSU CS server and a few relating to personal interests
 - Wikipedia - I monitor several low traffic pages I care about, great for general research
-- Netflix - I watch more than I should, but less than I could
-- Nebula - Support digital creators instead of using YouTube
+- Nebula - Support creators directly instead of using YouTube
+- Dropout - Support creators directly instead of using YouTube
 - YouTube - I try to keep this to educational content, I like creators who focus on quality over quantity
 - Spotify - Used to swear I'd never use it, but I started and never looked back
 - Signal - Secure and private messages
@@ -58,8 +58,7 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 ## Local applications and tools:
 
 - Firefox - Exactly what I need, without the sketchiness of browser lock-in that is Chrome
-- Jetbrains IDE suite - Free for students and provides significant assistance when I want it
-- VS Code - For JavaScript, Golang and other related development
+- VS Code - Primary IDE
 - Ghostwriter - A simple markdown editor, which I use quite frequently (I'm using it to write this)
 - Obsidian - A more featured markdown editor, I manage a lot of private notes and writing in my Obsidian vault
 - Terminator - Easy to configure and use terminal emulator
@@ -67,7 +66,6 @@ As a result of my current infrastructure setup, a critical failure on part of Cl
 - Blender - Very flexible 3D rendering, 2D rendering, video editing, special effects application
 - GIMP - Image editing
 - Inkscape - Vector image editing
-- SimpleScreenRecorder - Easy to use screen recorder software
 - Kdenlive - Video editing
 - DigiKam - Photo library management 
 - Thunderbird - Local email browser
