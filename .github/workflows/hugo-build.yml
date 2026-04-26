@@ -42,7 +42,7 @@ jobs:
       run: hugo --logLevel debug --minify
 
     - name: Upload artifact
-      uses: actions/upload-artifact@v5.0.0
+      uses: actions/upload-artifact@v7.0.1
       with:
         # Artifact name
         name: site
