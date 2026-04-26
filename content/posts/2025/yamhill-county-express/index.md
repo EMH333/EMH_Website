@@ -12,6 +12,8 @@ For a very long time I've wanted regular train service into McMinnville, Oregon.
 <!--more-->
 The proposed ~26 mile route would initially travel between McMinnville and Tualatin where it would link up with the TriMet WES commuter train for connections into the broader Portland Metro Area.
 
+<!--TODO include map of route-->
+
 Stations would include:
 - McMinnville (~34k residents)
 - Lafayette (~4.4k)
@@ -41,7 +43,7 @@ While there are several rolling stock options, Stadler's [FLIRT multiple-units](
 
 Depending on the FLIRT model selected, battery-electric operation would also be possible. Charging stations on the terminus of the route would recharge in-between runs with regenerative breaking reducing battery impact. Over time, the entire route could be progressively electrified.
 
-These train sets also offer excellent accessibility, which would be matched with level-boarding at every station. This improves accessibility, while also decreasing the amount of time 
+These train sets also offer excellent accessibility, which would be matched with level-boarding at every station. This improves accessibility, while also decreasing the amount of time required for passengers to board and deboard at stations.
 
 Generally this sort of proposal would not be seen as economically viable. However, I think this is counteracted with one typical and one atypical feature of this line.
 
@@ -55,7 +57,7 @@ Yamhill County is plagued by a constricted housing supply and any new constructi
 
 ### Onboard Wine Tastings
 
-The Willamette Valley, and specifically Yamhill County, is globally renowned for excellent wines like Pinot noir. In fact, the selected route traverses through close to half of the AVAs (American Viticulture Areas) within the Willamette Valley. Wine tourism contributes significantly to the local economies along the route.
+Yamhill County (and broadly the Willamette Valley) is globally renowned for excellent wine, especially pinot noir. In fact, the selected route traverses through close to half of the AVAs (American Viticulture Areas) within the Willamette Valley. Wine tourism contributes significantly to the local economies along the route.
 
 To take advantage of this, each week Friday through Sunday (depending on demand), a section of certain train runs will convert a portion of the passenger area into a wine bar for deluxe tastings during travel. These will be serviced by a rotating set of local wineries, offering the best wine Yamhill County has to offer.
 
@@ -71,13 +73,13 @@ The pricing reflects this by keeping everyday travel affordable and designing el
 
 First boarding each week: $6
 Second through fifth boarding: $3
-Sixth boarding onward: Free
+Sixth boarding onward: $1
 Free glass of wine every 50 boardings.
 
 Wine tasting experience: $50/person (includes boarding and a 3 glass flight; one fee waved with a three or more bottle purchase on-board; additional wine by the glass available)
 Charcuterie board: $30
 
-The everyday commuter pays $18 per week and would receive a free glass of wine every couple months. The weekend explorer pays $9 for a round-trip. A couple of wine tourists would pay $130 for a wine tasting + charcuterie.
+The everyday commuter pays $17 per week and would receive a free glass of wine every couple months. The weekend explorer pays $9 for a round-trip. A wine tourist couple would pay $130 for a wine tasting + charcuterie.
 
 Discounts of 50% are available for low-income residents or 1-station trips (Lafayette to Dundee for example).
 
