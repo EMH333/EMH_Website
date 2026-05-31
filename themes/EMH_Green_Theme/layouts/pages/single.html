@@ -10,7 +10,10 @@
 <aside id="meta">
   <div>
     <section>
-      <p id="date">Published {{ .Date.Format "Mon Jan 2, 2006 at 03:04PM" }} </p>
+      <p id="date"> Originally Published:
+        {{ $published := (dict "time" .Date "format" "Mon Jan 2, 2006 at 03:04PM") }}
+        {{ partialCached "time.html" $published $published }}
+      </p>
     </section>
   </div>
 </aside>

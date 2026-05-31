@@ -1,0 +1,8 @@
+{{ if not (isset . "time") }}
+	{{ errorf "No time passed" }}
+{{ end -}}
+{{ if not (isset . "format") }}
+	{{ errorf "No format string passed" }}
+{{ end -}}
+
+<time datetime='{{ .time.Format "2006-01-02T15:04:05-0700" | safeHTMLAttr }}'>{{ .time.Format .format }}</time>

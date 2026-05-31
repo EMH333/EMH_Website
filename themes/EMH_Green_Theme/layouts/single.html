@@ -11,10 +11,16 @@
 <aside id="meta">
   <div>
     <section class="quick">
-      <h4>{{if gt .Lastmod .Date}}Last Modified:
-        {{ .Lastmod.Format "Mon Jan 2, 2006 at 03:04PM" }}
-        {{end}}</h4>
-      <h4 id="date">Published: {{ .Date.Format "Mon Jan 2, 2006 at 03:04PM" }}</h4>
+      {{if gt .Lastmod .Date}}
+      <h4>Last Modified:
+        {{ $lastMod := (dict "time" .Lastmod "format" "Mon Jan 2, 2006 at 03:04PM") }}
+        {{ partialCached "time.html" $lastMod $lastMod }}
+      </h4>
+      {{end}}
+      <h4 id="date">Published:
+        {{ $published := (dict "time" .Date "format" "Mon Jan 2, 2006 at 03:04PM") }}
+        {{ partialCached "time.html" $published $published }}
+      </h4>
       <h5 id="wordcount"> {{ .WordCount }} Words </h5>
     </section>
     {{ with .Params.categories }}

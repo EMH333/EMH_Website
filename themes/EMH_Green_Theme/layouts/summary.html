@@ -6,7 +6,10 @@
                 <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
                 {{ if ne .WordCount 0 }}
                 <div class="details">
-                    <span> {{.Date.Format "02-Jan-2006"}}</span>
+                    <span>
+                        {{ $published := (dict "time" .Date "format" "02-Jan-2006") }}
+                        {{ partialCached "time.html" $published $published }}
+                    </span>
                     |
                     <span>{{ .WordCount }} Words</span>
                     |
