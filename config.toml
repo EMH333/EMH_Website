@@ -20,6 +20,9 @@ enableGitInfo=true #use git for modification date data
   sideMenuNeat = true
   ignoredMenuTypes = ["images","pages","posts","goverment"]
 
+[imaging]
+  [imaging.avif]
+    encoderSpeed = 8
 
 [menu]
   [[menu.main]]

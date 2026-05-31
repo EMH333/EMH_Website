@@ -14,85 +14,77 @@
 
 {{ $original := .Page.Resources.GetMatch (printf "%s*" ($imageName)) }}
 
-{{ if $original }}
-  {{ if eq $resize "true" }}
+{{ if not $original }}
+  {{ errorf "Couldn't find %s in page directory" $fileName }}
+{{ end }}
 
-  {{ $src_original := $original }}
+{{ if not (reflect.IsImageResource $original) }}
+  {{ errorf "%s is not an image" $fileName}}
+{{ end }}
 
-  {{ if gt ($original.Width) 400 }}
-    {{ $.Scratch.Set "resize_400" ($original.Resize "400x") }}
-  {{ else }}
-    {{ $.Scratch.Set "resize_400" ($original) }}
-  {{ end }}
+{{ if eq $resize "true" }}
 
-  {{ if gt ($original.Width) 700 }}
-    {{ $.Scratch.Set "resize_700" ($original.Resize "700x") }}
-  {{ else }}
-    {{ $.Scratch.Set "resize_700" ($original) }}
-  {{ end }}
+{{ if not (reflect.IsImageResourceProcessable $original) }}
+  {{ errorf "%s can not be resized" $fileName}}
+{{ end }}
 
-  {{ if gt ($original.Width) 1000 }}
-    {{ $.Scratch.Set "resize_1000" ($original.Resize "1000x") }}
-  {{ else }}
-    {{ $.Scratch.Set "resize_1000" ($original) }}
-  {{ end }}
+{{ $src_original := $original }}
+{{ $scratch := collections.NewScratch }}
+{{ $scratch.Set "srcset" "" }}
 
-  {{ if gt ($original.Width) 1300 }}
-    {{ $.Scratch.Set "resize_1300" ($original.Resize "1300x") }}
-  {{ else }}
-    {{ $.Scratch.Set "resize_1300" ($original) }}
-  {{ end }}
+{{ if gt ($original.Width) 400 }}
+  {{ $resize_400 := ($original.Resize "400x avif") }}
+  {{ $scratch.Set "resize_400" $resize_400 }}
+  {{ $src_original = $resize_400 }}
+  {{ $scratch.Add "srcset" (printf "%s 400w, " $resize_400.RelPermalink) }}
+{{ end }}
 
-  {{ if gt ($original.Width) 1600 }}
-    {{ $.Scratch.Set "resize_1600" ($original.Resize "1600x") }}
-    {{ $src_original = ($.Scratch.Get "resize_1600") }}
-  {{ else }}
-    {{ $.Scratch.Set "resize_1600" ($original) }}
-  {{ end }}
+{{ if gt ($original.Width) 700 }}
+  {{ $resize_700 := ($original.Resize "700x avif") }}
+  {{ $scratch.Set "resize_700" $resize_700 }}
+  {{ $src_original = $resize_700 }}
+  {{ $scratch.Add "srcset" (printf "%s 700w, " $resize_700.RelPermalink) }}
+{{ end }}
 
-  <!--Note that if the $width (in px) is specified, then that is used to load the correct image-->
-  <!--Otherwise, till the screen is 750px wide, use 100% of page width, then after that, use 50%-->
-  <!--from srcset, removed to preserve bandwidth {{ $original.RelPermalink }} {{ with $original.Width }}{{.}}w{{ end }} -->
-  <img
-      {{ if eq $center "true" }}class="center-element"{{ end }}
-      src='{{ ($.Scratch.Get "resize_1600").RelPermalink }}'
-      srcset="
-      {{ ($.Scratch.Get "resize_400").RelPermalink }} 400w,
-      {{ ($.Scratch.Get "resize_700").RelPermalink }} 700w,
-      {{ ($.Scratch.Get "resize_1000").RelPermalink }} 1000w,
-      {{ ($.Scratch.Get "resize_1300").RelPermalink }} 1300w,
-      {{ ($.Scratch.Get "resize_1600").RelPermalink }} 1600w,
-      "
-      {{ if $width }} sizes="{{ $width }}px" {{ else }} sizes="(max-width: 750px) 100vw, 50vw" {{ end }}
-      loading="{{ $loading }}"
-      {{ if $title }}alt="{{ $title }}"{{ end }}
-      {{ if $style}}style="{{ $style | safeCSS }}"{{ end }}
-      {{ if $width }}
-          width="{{ $width }}"
-          {{ $ratio := (div (float $original.Height) $original.Width) }}
-          height="{{ printf "%.3f" (mul (int $width) $ratio)}}"
-      {{ end }}
-      {{ if eq $click "true" }}onclick="window.open('{{ $original.RelPermalink }}')"{{ end }}
-  >
+{{ if gt ($original.Width) 1000 }}
+  {{ $resize_1000 := ($original.Resize "1000x avif") }}
+  {{ $scratch.Set "resize_1000" $resize_1000 }}
+  {{ $src_original = $resize_1000 }}
+  {{ $scratch.Add "srcset" (printf "%s 1000w, " $resize_1000.RelPermalink) }}
+{{ end }}
 
-  {{ $.Scratch.Delete "resize_320" }}
-  {{ $.Scratch.Delete "resize_480" }}
-  {{ $.Scratch.Delete "resize_768" }}
-  {{ $.Scratch.Delete "resize_1024" }}
-  {{ $.Scratch.Delete "resize_1280" }}
-  {{ $.Scratch.Delete "resize_1600" }}
-  {{ $.Scratch.Delete "resize_1920" }}
-  {{ else }}
-  <img
-      {{ if eq $center "true" }}class="center-element"{{ end }}
-      src="{{ $original.RelPermalink }}"
-      {{ if $title }}alt="{{ $title }}"{{ end }}
-      {{ if $style}}style="{{ $style | safeCSS }}"{{ end }}
-      {{ if $width }}width="{{ $width }}"{{ end }}
-      {{ if eq $click "true" }}onclick="window.open('{{ $original.RelPermalink }}')"{{ end }}
-  >
-  {{ end }}
+{{ if gt ($original.Width) 1600 }}
+  {{ $resize_1600 := ($original.Resize "1600x avif") }}
+  {{ $scratch.Set "resize_1600" $resize_1600 }}
+  {{ $src_original = $resize_1600 }}
+  {{ $scratch.Add "srcset" (printf "%s 1600w, " $resize_1600.RelPermalink) }}
+{{ end }}
+
+<!--Note that if the $width (in px) is specified, then that is used to load the correct image-->
+<!--Otherwise, till the screen is 750px wide, use 100% of page width, then after that, use 50%-->
+<!--from srcset, removed to preserve bandwidth {{ $original.RelPermalink }} {{ with $original.Width }}{{.}}w{{ end }} -->
+<img
+    {{ if eq $center "true" }}class="center-element"{{ end }}
+    src='{{ $src_original.RelPermalink }}'
+    {{ if not (eq ($scratch.Get "srcset") "") }} srcset='{{ $scratch.Get "srcset" }}' {{ end }}
+    {{ if $width }} sizes="{{ $width }}px" {{ else }} sizes="(max-width: 750px) 100vw, 50vw" {{ end }}
+    loading="{{ $loading }}"
+    {{ if $title }}alt="{{ $title }}"{{ end }}
+    {{ if $style}}style="{{ $style | safeCSS }}"{{ end }}
+    {{ if $width }}
+        width="{{ $width }}"
+        {{ $ratio := (div (float $original.Height) $original.Width) }}
+        height="{{ printf "%.3f" (mul (int $width) $ratio)}}"
+    {{ end }}
+    {{ if eq $click "true" }}onclick="window.open('{{ $original.RelPermalink }}')"{{ end }}
+>
 {{ else }}
-  <b>{{ printf "Couldn't find %s in page directory" $fileName}}</b>
-  <br>
+<img
+    {{ if eq $center "true" }}class="center-element"{{ end }}
+    src="{{ $original.RelPermalink }}"
+    {{ if $title }}alt="{{ $title }}"{{ end }}
+    {{ if $style}}style="{{ $style | safeCSS }}"{{ end }}
+    {{ if $width }}width="{{ $width }}"{{ end }}
+    {{ if eq $click "true" }}onclick="window.open('{{ $original.RelPermalink }}')"{{ end }}
+>
 {{ end }}
