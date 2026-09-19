@@ -50,11 +50,11 @@ jobs:
 
     - name: Deploy to server
       id: deploy
-      uses: EMH333/action-rsyncer@v1.4
+      uses: EMH333/action-rsyncer@v1.5
       env:
         DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
       with:
-        flags: '-vzcr --delete'
+        flags: '-vzcr --delete-delay'
         options: ''
         ssh_options: ''
         src: 'public/'
